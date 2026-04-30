@@ -737,15 +737,15 @@ if have_remote_desktop
 endif
 
 dbus_display_config_built_sources = gnome.gdbus_codegen('meta-dbus-display-config',
-    'org.gnome.Mutter.DisplayConfig.xml',
-    interface_prefix: 'org.gnome.Mutter.',
+    'io.github.scarecrow-de.Mutter.DisplayConfig.xml',
+    interface_prefix: 'io.github.scarecrow-de.Mutter.',
     namespace: 'MetaDBus',
   )
 mutter_built_sources += dbus_display_config_built_sources
 
 dbus_idle_monitor_built_sources = gnome.gdbus_codegen('meta-dbus-idle-monitor',
-    'org.gnome.Mutter.IdleMonitor.xml',
-    interface_prefix: 'org.gnome.Mutter.',
+    'io.github.scarecrow-de.Mutter.IdleMonitor.xml',
+    interface_prefix: 'io.github.scarecrow-de.Mutter.',
     namespace: 'MetaDBus',
     object_manager: true,
   )
@@ -771,10 +771,10 @@ if have_profiler
     sysprof_dbus_interfaces_dir = join_paths(meson.source_root(), 'subprojects', 'sysprof', 'src')
   endif
 
-  sysprof3_dbus_file = join_paths(sysprof_dbus_interfaces_dir, 'org.gnome.Sysprof3.Profiler.xml')
+  sysprof3_dbus_file = join_paths(sysprof_dbus_interfaces_dir, 'io.github.scarecrow-de.Sysprof3.Profiler.xml')
   dbus_sysprof3_profiler_built_sources = gnome.gdbus_codegen('meta-dbus-sysprof3-profiler',
       sysprof3_dbus_file,
-      interface_prefix: 'org.gnome.',
+      interface_prefix: 'io.github.scarecrow-de.',
       namespace: 'MetaDBus',
     )
   mutter_built_sources += dbus_sysprof3_profiler_built_sources
@@ -812,15 +812,15 @@ endif
 
 if have_remote_desktop
   dbus_remote_desktop_built_sources = gnome.gdbus_codegen('meta-dbus-remote-desktop',
-      'org.gnome.Mutter.RemoteDesktop.xml',
-      interface_prefix: 'org.gnome.Mutter.',
+      'io.github.scarecrow-de.Mutter.RemoteDesktop.xml',
+      interface_prefix: 'io.github.scarecrow-de.Mutter.',
       namespace: 'MetaDBus',
     )
   mutter_built_sources += dbus_remote_desktop_built_sources
 
   dbus_screen_cast_built_sources = gnome.gdbus_codegen('meta-dbus-screen-cast',
-      'org.gnome.Mutter.ScreenCast.xml',
-      interface_prefix: 'org.gnome.Mutter.',
+      'io.github.scarecrow-de.Mutter.ScreenCast.xml',
+      interface_prefix: 'io.github.scarecrow-de.Mutter.',
       namespace: 'MetaDBus',
     )
   mutter_built_sources += dbus_screen_cast_built_sources
