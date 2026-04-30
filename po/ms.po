@@ -257,11 +257,11 @@ msgstr "Pisah pandangan di sebelah kanan"
 msgid "Mutter"
 msgstr "Mutter"
 
-#: data/org.gnome.mutter.gschema.xml.in:7
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:7
 msgid "Modifier to use for extended window management operations"
 msgstr "Penerang yang digunakan untuk operasi pengurusan tetingkap lanjutan"
 
-#: data/org.gnome.mutter.gschema.xml.in:8
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:8
 msgid ""
 "This key will initiate the “overlay”, which is a combination window overview "
 "and application launching system. The default is intended to be the “Windows "
@@ -273,11 +273,11 @@ msgstr ""
 "key\" iaitu perkakasan PC. Dijangkakan pengikatan ini sama ada lalai atau "
 "ditetapkan pada rentetan kosong."
 
-#: data/org.gnome.mutter.gschema.xml.in:20
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:20
 msgid "Attach modal dialogs"
 msgstr "Lampir dialog modal"
 
-#: data/org.gnome.mutter.gschema.xml.in:21
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:21
 msgid ""
 "When true, instead of having independent titlebars, modal dialogs appear "
 "attached to the titlebar of the parent window and are moved together with "
@@ -287,12 +287,12 @@ msgstr ""
 "bersama-sama dengan palang tajuk tetingkap induk dan bergerak bersama-sama "
 "dengannya."
 
-#: data/org.gnome.mutter.gschema.xml.in:30
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:30
 msgid "Enable edge tiling when dropping windows on screen edges"
 msgstr ""
 "Benarkan penjubinan pinggir ketika melepaskan tetingkap pada pinggir skrin"
 
-#: data/org.gnome.mutter.gschema.xml.in:31
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:31
 msgid ""
 "If enabled, dropping windows on vertical screen edges maximizes them "
 "vertically and resizes them horizontally to cover half of the available "
@@ -303,11 +303,11 @@ msgstr ""
 "untuk meliputi separuh kawasan yang ada. Melepaskan tetingkap pada pinggir "
 "skrin atas pula dapat memaksimumkan sepenuhnya."
 
-#: data/org.gnome.mutter.gschema.xml.in:40
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:40
 msgid "Workspaces are managed dynamically"
 msgstr "Ruang kerja diurus secara dinamik"
 
-#: data/org.gnome.mutter.gschema.xml.in:41
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:41
 msgid ""
 "Determines whether workspaces are managed dynamically or whether there’s a "
 "static number of workspaces (determined by the num-workspaces key in org."
@@ -315,13 +315,13 @@ msgid ""
 msgstr ""
 "Tentukan sama ada ruang kerja diurus secara dinamik atau sama ada terdapat "
 "bilangan ruang kerja statik (ditentukan oleh kunci num-workspaces key dalam "
-"org.gnome.desktop.wm.preferences)."
+"io.github.scarecrow-de.desktop.wm.preferences)."
 
-#: data/org.gnome.mutter.gschema.xml.in:50
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:50
 msgid "Workspaces only on primary"
 msgstr "Ruang kerja hanya pada utama"
 
-#: data/org.gnome.mutter.gschema.xml.in:51
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:51
 msgid ""
 "Determines whether workspace switching should happen for windows on all "
 "monitors or only for windows on the primary monitor."
@@ -329,11 +329,11 @@ msgstr ""
 "Tentukan sama ada pertukaran ruang kerja patut berlaku untuk tetingkap pada "
 "semua monitor atau hanya untuk tetingkap pada monitor utama."
 
-#: data/org.gnome.mutter.gschema.xml.in:59
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:59
 msgid "No tab popup"
 msgstr "Tiada tab timbul"
 
-#: data/org.gnome.mutter.gschema.xml.in:60
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:60
 msgid ""
 "Determines whether the use of popup and highlight frame should be disabled "
 "for window cycling."
@@ -341,11 +341,11 @@ msgstr ""
 "Tentukan sama ada pengguna timbul dan bingkai sorot patut dilumpuhkan untuk "
 "kitaran tetingkap."
 
-#: data/org.gnome.mutter.gschema.xml.in:68
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:68
 msgid "Delay focus changes until the pointer stops moving"
 msgstr "Lengah perubahan fokus sehinggalah penuding berhenti gerak"
 
-#: data/org.gnome.mutter.gschema.xml.in:69
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:69
 msgid ""
 "If set to true, and the focus mode is either “sloppy” or “mouse” then the "
 "focus will not be changed immediately when entering a window, but only after "
@@ -355,11 +355,11 @@ msgstr ""
 "fokus tidak berubah serta-merta ketika memasuki tetingkap, tetapi selepas "
 "penuding berhenti gerak."
 
-#: data/org.gnome.mutter.gschema.xml.in:79
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:79
 msgid "Draggable border width"
 msgstr "Lebar sempadan boleh diseret"
 
-#: data/org.gnome.mutter.gschema.xml.in:80
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:80
 msgid ""
 "The amount of total draggable borders. If the theme’s visible borders are "
 "not enough, invisible borders will be added to meet this value."
@@ -367,11 +367,11 @@ msgstr ""
 "Amaun jumlah sempadan boleh diseret. Jika sempadan tampak tema tidak "
 "mencukupi, sempadan halimunan akan ditambah untuk memenuhi nilai ini."
 
-#: data/org.gnome.mutter.gschema.xml.in:89
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:89
 msgid "Auto maximize nearly monitor sized windows"
 msgstr "Auto maksimum tetingkap bersaiz hampir dengan monitor"
 
-#: data/org.gnome.mutter.gschema.xml.in:90
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:90
 msgid ""
 "If enabled, new windows that are initially the size of the monitor "
 "automatically get maximized."
@@ -379,11 +379,11 @@ msgstr ""
 "Jika dibenarkan, tetingkap baharu yang awalnya bersaiz monitor akan "
 "dimaksimumkan secara automatik."
 
-#: data/org.gnome.mutter.gschema.xml.in:98
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:98
 msgid "Place new windows in the center"
 msgstr "Letak tetingkap baharu di tengah-tengah"
 
-#: data/org.gnome.mutter.gschema.xml.in:99
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:99
 msgid ""
 "When true, the new windows will always be put in the center of the active "
 "screen of the monitor."
@@ -391,11 +391,11 @@ msgstr ""
 "Jika benar, tetingkap baharu akan sentiasa berada ditengah-tengah skrin "
 "aktif monitor."
 
-#: data/org.gnome.mutter.gschema.xml.in:107
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:107
 msgid "Enable experimental features"
 msgstr "Benarkan fitur-fitur eksperimental"
 
-#: data/org.gnome.mutter.gschema.xml.in:108
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:108
 msgid ""
 "To enable experimental features, add the feature keyword to the list. "
 "Whether the feature requires restarting the compositor depends on the given "
@@ -422,100 +422,100 @@ msgstr ""
 "mesti ada CAP_SYS_NICE. Perlukan mula semula. • “autostart-xwayland” — "
 "mengawalkan Xwayland secara malas jika terdapat klien X11. Perlu mula semula."
 
-#: data/org.gnome.mutter.gschema.xml.in:134
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:134
 msgid "Modifier to use to locate the pointer"
 msgstr "Penerang digunakan untuk mencari penuding"
 
-#: data/org.gnome.mutter.gschema.xml.in:135
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:135
 msgid "This key will initiate the “locate pointer” action."
 msgstr "Kunci ini akan mengawalkan tindakan “locate pointer”."
 
-#: data/org.gnome.mutter.gschema.xml.in:155
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:155
 #| msgid "Move between windows with popup"
 msgid "Select window from tab popup"
 msgstr "Pilih tetingkap dari timbul tab"
 
-#: data/org.gnome.mutter.gschema.xml.in:160
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:160
 msgid "Cancel tab popup"
 msgstr "Batal timbul tab"
 
-#: data/org.gnome.mutter.gschema.xml.in:165
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:165
 msgid "Switch monitor configurations"
 msgstr "Alih konfigurasi monitor"
 
-#: data/org.gnome.mutter.gschema.xml.in:170
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:170
 msgid "Rotates the built-in monitor configuration"
 msgstr "Putarkan konfigurasi monitor terbina-dalam"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:6
+#: data/io.github.scarecrow-de.mutter.wayland.gschema.xml.in:6
 #| msgid "Switch to workspace 1"
 msgid "Switch to VT 1"
 msgstr "Beralih ke VT 1"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:10
+#: data/io.github.scarecrow-de.mutter.wayland.gschema.xml.in:10
 #| msgid "Switch to workspace 2"
 msgid "Switch to VT 2"
 msgstr "Beralih ke VT 2"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:14
+#: data/io.github.scarecrow-de.mutter.wayland.gschema.xml.in:14
 #| msgid "Switch to workspace 3"
 msgid "Switch to VT 3"
 msgstr "Beralih ke VT 3"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:18
+#: data/io.github.scarecrow-de.mutter.wayland.gschema.xml.in:18
 #| msgid "Switch to workspace 4"
 msgid "Switch to VT 4"
 msgstr "Beralih ke VT 4"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:22
+#: data/io.github.scarecrow-de.mutter.wayland.gschema.xml.in:22
 #| msgid "Switch to workspace 5"
 msgid "Switch to VT 5"
 msgstr "Beralih ke VT 5"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:26
+#: data/io.github.scarecrow-de.mutter.wayland.gschema.xml.in:26
 #| msgid "Switch to workspace 6"
 msgid "Switch to VT 6"
 msgstr "Beralih ke VT 6"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:30
+#: data/io.github.scarecrow-de.mutter.wayland.gschema.xml.in:30
 #| msgid "Switch to workspace 7"
 msgid "Switch to VT 7"
 msgstr "Beralih ke VT 7"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:34
+#: data/io.github.scarecrow-de.mutter.wayland.gschema.xml.in:34
 #| msgid "Switch to workspace 8"
 msgid "Switch to VT 8"
 msgstr "Beralih ke VT 8"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:38
+#: data/io.github.scarecrow-de.mutter.wayland.gschema.xml.in:38
 #| msgid "Switch to workspace 9"
 msgid "Switch to VT 9"
 msgstr "Beralih ke VT 9"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:42
+#: data/io.github.scarecrow-de.mutter.wayland.gschema.xml.in:42
 #| msgid "Switch to workspace 10"
 msgid "Switch to VT 10"
 msgstr "Beralih ke VT 10"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:46
+#: data/io.github.scarecrow-de.mutter.wayland.gschema.xml.in:46
 #| msgid "Switch to workspace 11"
 msgid "Switch to VT 11"
 msgstr "Beralih ke VT 11"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:50
+#: data/io.github.scarecrow-de.mutter.wayland.gschema.xml.in:50
 #| msgid "Switch to workspace 12"
 msgid "Switch to VT 12"
 msgstr "Beralih ke VT 12"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:54
+#: data/io.github.scarecrow-de.mutter.wayland.gschema.xml.in:54
 msgid "Re-enable shortcuts"
 msgstr "Benarkan-semula pintasan"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:64
+#: data/io.github.scarecrow-de.mutter.wayland.gschema.xml.in:64
 msgid "Allow X11 grabs to lock keyboard focus with Xwayland"
 msgstr "Benarkan cekau X11 untuk mengunci fokus papan kekunci dengan Xwayland"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:65
+#: data/io.github.scarecrow-de.mutter.wayland.gschema.xml.in:65
 msgid ""
 "Allow all keyboard events to be routed to X11 “override redirect” windows "
 "with a grab when running in Xwayland. This option is to support X11 clients "
@@ -538,11 +538,11 @@ msgstr ""
 "sama ada satu Mesej Klien X11 khusus pada tetingkap root atau berada dalam "
 "aplikasi tersenarai-putih di dalam kunci “xwayland-grab-access-rules”."
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:84
+#: data/io.github.scarecrow-de.mutter.wayland.gschema.xml.in:84
 msgid "Xwayland applications allowed to issue keyboard grabs"
 msgstr "Aplikasi Xwayland dibenarkan membuat cekau papan kekunci"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:85
+#: data/io.github.scarecrow-de.mutter.wayland.gschema.xml.in:85
 msgid ""
 "List the resource names or resource class of X11 windows either allowed or "
 "not allowed to issue X11 keyboard grabs under Xwayland. The resource name or "

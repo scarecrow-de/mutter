@@ -279,7 +279,7 @@ if have_tests
   have_installed_tests = get_option('installed_tests')
 endif
 
-have_profiler = get_option('profiler')
+have_profiler = false # get_option('profiler')
 if have_profiler
   # libsysprof-capture support
   sysprof_dep = dependency('sysprof-capture-4',

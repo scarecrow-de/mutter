@@ -259,12 +259,12 @@ msgstr "Vaade poolitatakse paremalt"
 msgid "Mutter"
 msgstr "Mutter"
 
-#: data/org.gnome.mutter.gschema.xml.in:7
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:7
 msgid "Modifier to use for extended window management operations"
 msgstr "Laiendatud aknaoperatsioonide korral kasutatav muuteklahv"
 
 # millalgi võiks selle kohta vearaporti kirjutada
-#: data/org.gnome.mutter.gschema.xml.in:8
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:8
 #, fuzzy
 #| msgid ""
 #| "This key will initiate the \"overlay\", which is a combination window "
@@ -282,11 +282,11 @@ msgstr ""
 "klahv\". Eeldatavasti määratakse selle seose väärtuseks vaikimisi või tühi "
 "sõne."
 
-#: data/org.gnome.mutter.gschema.xml.in:20
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:20
 msgid "Attach modal dialogs"
 msgstr "Modaaldialoogide kinnistamine"
 
-#: data/org.gnome.mutter.gschema.xml.in:21
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:21
 msgid ""
 "When true, instead of having independent titlebars, modal dialogs appear "
 "attached to the titlebar of the parent window and are moved together with "
@@ -295,11 +295,11 @@ msgstr ""
 "Kui märgitud, siis eraldi tiitliribade asemel on moodaalsed dialoogid "
 "emaakna tiitliribade küljes ning liiguvad koos emaaknaga."
 
-#: data/org.gnome.mutter.gschema.xml.in:30
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:30
 msgid "Enable edge tiling when dropping windows on screen edges"
 msgstr "Akna ümberpaigutamine selle lohistamisel ekraani serva"
 
-#: data/org.gnome.mutter.gschema.xml.in:31
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:31
 msgid ""
 "If enabled, dropping windows on vertical screen edges maximizes them "
 "vertically and resizes them horizontally to cover half of the available "
@@ -309,24 +309,24 @@ msgstr ""
 "vertikaalselt ja laius katab pool saadaolevast laiusest. Akna lohistamine "
 "ekraani ülaserva maksimeerib akna täielikult."
 
-#: data/org.gnome.mutter.gschema.xml.in:40
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:40
 msgid "Workspaces are managed dynamically"
 msgstr "Tööalade dünaamiline haldus"
 
-#: data/org.gnome.mutter.gschema.xml.in:41
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:41
 msgid ""
 "Determines whether workspaces are managed dynamically or whether there’s a "
 "static number of workspaces (determined by the num-workspaces key in org."
 "gnome.desktop.wm.preferences)."
 msgstr ""
 "Määrab, kas tööalasid hallatakse dünaamiliselt või on nende arv staatiline "
-"(arvu määrab org.gnome.desktop.wm.preferences all võti num-workspaces)."
+"(arvu määrab io.github.scarecrow-de.desktop.wm.preferences all võti num-workspaces)."
 
-#: data/org.gnome.mutter.gschema.xml.in:50
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:50
 msgid "Workspaces only on primary"
 msgstr "Tööalad ainult peamisel"
 
-#: data/org.gnome.mutter.gschema.xml.in:51
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:51
 msgid ""
 "Determines whether workspace switching should happen for windows on all "
 "monitors or only for windows on the primary monitor."
@@ -334,11 +334,11 @@ msgstr ""
 "Määrab, kas tööalade vahetamine mõjutab kõiki aknaid kõigil monitoridel või "
 "ainult aknaid peamisel monitoril."
 
-#: data/org.gnome.mutter.gschema.xml.in:59
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:59
 msgid "No tab popup"
 msgstr "Tabulaatoril pole hüpikakent"
 
-#: data/org.gnome.mutter.gschema.xml.in:60
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:60
 msgid ""
 "Determines whether the use of popup and highlight frame should be disabled "
 "for window cycling."
@@ -346,11 +346,11 @@ msgstr ""
 "Kui märgitud, siis on hüpikaken ja esiletõstmise raam keelatud akende "
 "vahetamisel."
 
-#: data/org.gnome.mutter.gschema.xml.in:68
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:68
 msgid "Delay focus changes until the pointer stops moving"
 msgstr "Fookusemuutused lükatakse edasi kuni kursor peatub"
 
-#: data/org.gnome.mutter.gschema.xml.in:69
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:69
 msgid ""
 "If set to true, and the focus mode is either “sloppy” or “mouse” then the "
 "focus will not be changed immediately when entering a window, but only after "
@@ -359,11 +359,11 @@ msgstr ""
 "Kui tõene ning fookusrežiim on kas „sloppy“ või „mouse“, siis fookust ei "
 "vahetata kohe, kui kursor aknale liigub, vaid alles pärast kursori peatumist."
 
-#: data/org.gnome.mutter.gschema.xml.in:79
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:79
 msgid "Draggable border width"
 msgstr "Lohistatava äärise laius"
 
-#: data/org.gnome.mutter.gschema.xml.in:80
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:80
 msgid ""
 "The amount of total draggable borders. If the theme’s visible borders are "
 "not enough, invisible borders will be added to meet this value."
@@ -371,11 +371,11 @@ msgstr ""
 "Lohistatava äärise laius. Kui kujunduse nähtavatest ääristest ei piisa, "
 "lisatakse puuduoleva osa jaoks nähtamatu ääris."
 
-#: data/org.gnome.mutter.gschema.xml.in:89
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:89
 msgid "Auto maximize nearly monitor sized windows"
 msgstr "Peaaegu monitori suurused ekraanid maksimeeritakse automaatselt"
 
-#: data/org.gnome.mutter.gschema.xml.in:90
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:90
 msgid ""
 "If enabled, new windows that are initially the size of the monitor "
 "automatically get maximized."
@@ -383,21 +383,21 @@ msgstr ""
 "Kui lubatud, maksimeeritakse automaatselt aknad, mis on avanedes monitori "
 "suurused."
 
-#: data/org.gnome.mutter.gschema.xml.in:98
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:98
 msgid "Place new windows in the center"
 msgstr ""
 
-#: data/org.gnome.mutter.gschema.xml.in:99
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:99
 msgid ""
 "When true, the new windows will always be put in the center of the active "
 "screen of the monitor."
 msgstr ""
 
-#: data/org.gnome.mutter.gschema.xml.in:107
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:107
 msgid "Enable experimental features"
 msgstr ""
 
-#: data/org.gnome.mutter.gschema.xml.in:108
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:108
 msgid ""
 "To enable experimental features, add the feature keyword to the list. "
 "Whether the feature requires restarting the compositor depends on the given "
@@ -412,105 +412,105 @@ msgid ""
 "screen cast support."
 msgstr ""
 
-#: data/org.gnome.mutter.gschema.xml.in:145
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:145
 msgid "Select window from tab popup"
 msgstr "Akna valimine tabulaatori hüpikaknalt"
 
-#: data/org.gnome.mutter.gschema.xml.in:150
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:150
 msgid "Cancel tab popup"
 msgstr "Tabulaatori hüpikakna katkestamine"
 
-#: data/org.gnome.mutter.gschema.xml.in:155
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:155
 #, fuzzy
 #| msgid "Switch applications"
 msgid "Switch monitor configurations"
 msgstr "Rakenduste vahetamine"
 
-#: data/org.gnome.mutter.gschema.xml.in:160
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:160
 msgid "Rotates the built-in monitor configuration"
 msgstr ""
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:6
+#: data/io.github.scarecrow-de.mutter.wayland.gschema.xml.in:6
 #, fuzzy
 #| msgid "Switch to workspace 1"
 msgid "Switch to VT 1"
 msgstr "1. tööalale liikumine"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:10
+#: data/io.github.scarecrow-de.mutter.wayland.gschema.xml.in:10
 #, fuzzy
 #| msgid "Switch to workspace 2"
 msgid "Switch to VT 2"
 msgstr "2. tööalale liikumine"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:14
+#: data/io.github.scarecrow-de.mutter.wayland.gschema.xml.in:14
 #, fuzzy
 #| msgid "Switch to workspace 3"
 msgid "Switch to VT 3"
 msgstr "3. tööalale liikumine"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:18
+#: data/io.github.scarecrow-de.mutter.wayland.gschema.xml.in:18
 #, fuzzy
 #| msgid "Switch to workspace 4"
 msgid "Switch to VT 4"
 msgstr "4. tööalale liikumine"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:22
+#: data/io.github.scarecrow-de.mutter.wayland.gschema.xml.in:22
 #, fuzzy
 #| msgid "Switch to workspace 1"
 msgid "Switch to VT 5"
 msgstr "1. tööalale liikumine"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:26
+#: data/io.github.scarecrow-de.mutter.wayland.gschema.xml.in:26
 #, fuzzy
 #| msgid "Switch to workspace 1"
 msgid "Switch to VT 6"
 msgstr "1. tööalale liikumine"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:30
+#: data/io.github.scarecrow-de.mutter.wayland.gschema.xml.in:30
 #, fuzzy
 #| msgid "Switch to workspace 1"
 msgid "Switch to VT 7"
 msgstr "1. tööalale liikumine"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:34
+#: data/io.github.scarecrow-de.mutter.wayland.gschema.xml.in:34
 #, fuzzy
 #| msgid "Switch to workspace 1"
 msgid "Switch to VT 8"
 msgstr "1. tööalale liikumine"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:38
+#: data/io.github.scarecrow-de.mutter.wayland.gschema.xml.in:38
 #, fuzzy
 #| msgid "Switch to workspace 1"
 msgid "Switch to VT 9"
 msgstr "1. tööalale liikumine"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:42
+#: data/io.github.scarecrow-de.mutter.wayland.gschema.xml.in:42
 #, fuzzy
 #| msgid "Switch to workspace 1"
 msgid "Switch to VT 10"
 msgstr "1. tööalale liikumine"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:46
+#: data/io.github.scarecrow-de.mutter.wayland.gschema.xml.in:46
 #, fuzzy
 #| msgid "Switch to workspace 1"
 msgid "Switch to VT 11"
 msgstr "1. tööalale liikumine"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:50
+#: data/io.github.scarecrow-de.mutter.wayland.gschema.xml.in:50
 #, fuzzy
 #| msgid "Switch to workspace 1"
 msgid "Switch to VT 12"
 msgstr "1. tööalale liikumine"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:54
+#: data/io.github.scarecrow-de.mutter.wayland.gschema.xml.in:54
 msgid "Re-enable shortcuts"
 msgstr ""
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:64
+#: data/io.github.scarecrow-de.mutter.wayland.gschema.xml.in:64
 msgid "Allow grabs with Xwayland"
 msgstr ""
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:65
+#: data/io.github.scarecrow-de.mutter.wayland.gschema.xml.in:65
 msgid ""
 "Allow keyboard grabs issued by X11 applications running in Xwayland to be "
 "taken into account. For a X11 grab to be taken into account under Wayland, "
@@ -519,11 +519,11 @@ msgid ""
 "access-rules”."
 msgstr ""
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:77
+#: data/io.github.scarecrow-de.mutter.wayland.gschema.xml.in:77
 msgid "Xwayland applications allowed to issue keyboard grabs"
 msgstr ""
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:78
+#: data/io.github.scarecrow-de.mutter.wayland.gschema.xml.in:78
 msgid ""
 "List the resource names or resource class of X11 windows either allowed or "
 "not allowed to issue X11 keyboard grabs under Xwayland. The resource name or "

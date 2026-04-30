@@ -471,15 +471,15 @@ meta_settings_dispose (GObject *object)
 static void
 meta_settings_init (MetaSettings *settings)
 {
-  settings->interface_settings = g_settings_new ("org.gnome.desktop.interface");
+  settings->interface_settings = g_settings_new ("io.github.scarecrow-de.desktop.interface");
   g_signal_connect (settings->interface_settings, "changed",
                     G_CALLBACK (interface_settings_changed),
                     settings);
-  settings->mutter_settings = g_settings_new ("org.gnome.mutter");
+  settings->mutter_settings = g_settings_new ("io.github.scarecrow-de.mutter");
   g_signal_connect (settings->mutter_settings, "changed",
                     G_CALLBACK (mutter_settings_changed),
                     settings);
-  settings->wayland_settings = g_settings_new ("org.gnome.mutter.wayland");
+  settings->wayland_settings = g_settings_new ("io.github.scarecrow-de.mutter.wayland");
   g_signal_connect (settings->wayland_settings, "changed",
                     G_CALLBACK (wayland_settings_changed),
                     settings);

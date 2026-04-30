@@ -370,79 +370,79 @@ msgstr "ویژگی %s روی پنجره‌ی 0x%lx برای مورد %Id در ف
 msgid "Mutter"
 msgstr "ماتر"
 
-#: ../src/org.gnome.mutter.gschema.xml.in.h:1
+#: ../src/io.github.scarecrow-de.mutter.gschema.xml.in.h:1
 #, fuzzy
 #| msgid "Modifier to use for modified window click actions"
 msgid "Modifier to use for extended window management operations"
 msgstr "تغییردهنده‌ای که برای کنش‌های کلیک روی پنجره‌ی تغییر داده شده به کار می‌رود"
 
-#: ../src/org.gnome.mutter.gschema.xml.in.h:2
+#: ../src/io.github.scarecrow-de.mutter.gschema.xml.in.h:2
 msgid "This key will initiate the \"overlay\", which is a combination window overview and application launching system. The default is intended to be the \"Windows key\" on PC hardware. It's expected that this binding either the default or set to the empty string."
 msgstr ""
 
-#: ../src/org.gnome.mutter.gschema.xml.in.h:3
+#: ../src/io.github.scarecrow-de.mutter.gschema.xml.in.h:3
 msgid "Attach modal dialogs"
 msgstr "ضمیمه‌کردن محاوره‌های معین"
 
-#: ../src/org.gnome.mutter.gschema.xml.in.h:4
+#: ../src/io.github.scarecrow-de.mutter.gschema.xml.in.h:4
 msgid "When true, instead of having independent titlebars, modal dialogs appear attached to the titlebar of the parent window and are moved together with the parent window."
 msgstr ""
 
-#: ../src/org.gnome.mutter.gschema.xml.in.h:5
+#: ../src/io.github.scarecrow-de.mutter.gschema.xml.in.h:5
 msgid "Live Hidden Windows"
 msgstr "پنجره‌های مخفی زنده"
 
-#: ../src/org.gnome.mutter.gschema.xml.in.h:6
+#: ../src/io.github.scarecrow-de.mutter.gschema.xml.in.h:6
 msgid "Determines whether hidden windows (i.e., minimized windows and windows on other workspaces than the current one) should be kept alive."
 msgstr ""
 
-#: ../src/org.gnome.mutter.gschema.xml.in.h:7
+#: ../src/io.github.scarecrow-de.mutter.gschema.xml.in.h:7
 msgid "Enable edge tiling when dropping windows on screen edges"
 msgstr ""
 
-#: ../src/org.gnome.mutter.gschema.xml.in.h:8
+#: ../src/io.github.scarecrow-de.mutter.gschema.xml.in.h:8
 msgid "If enabled, dropping windows on vertical screen edges maximizes them vertically and resizes them horizontally to cover half of the available area. Dropping windows on the top screen edge maximizes them completely."
 msgstr ""
 
-#: ../src/org.gnome.mutter.gschema.xml.in.h:9
+#: ../src/io.github.scarecrow-de.mutter.gschema.xml.in.h:9
 msgid "Workspaces are managed dynamically"
 msgstr "فضاهای‌کاری بصورت پویا مدیریت می‌شوند"
 
-#: ../src/org.gnome.mutter.gschema.xml.in.h:10
-msgid "Determines whether workspaces are managed dynamically or whether there's a static number of workspaces (determined by the num-workspaces key in org.gnome.desktop.wm.preferences)."
+#: ../src/io.github.scarecrow-de.mutter.gschema.xml.in.h:10
+msgid "Determines whether workspaces are managed dynamically or whether there's a static number of workspaces (determined by the num-workspaces key in io.github.scarecrow-de.desktop.wm.preferences)."
 msgstr ""
 
-#: ../src/org.gnome.mutter.gschema.xml.in.h:11
+#: ../src/io.github.scarecrow-de.mutter.gschema.xml.in.h:11
 msgid "Workspaces only on primary"
 msgstr ""
 
-#: ../src/org.gnome.mutter.gschema.xml.in.h:12
+#: ../src/io.github.scarecrow-de.mutter.gschema.xml.in.h:12
 msgid "Determines whether workspace switching should happen for windows on all monitors or only for windows on the primary monitor."
 msgstr ""
 
-#: ../src/org.gnome.mutter.gschema.xml.in.h:13
+#: ../src/io.github.scarecrow-de.mutter.gschema.xml.in.h:13
 msgid "No tab popup"
 msgstr ""
 
-#: ../src/org.gnome.mutter.gschema.xml.in.h:14
+#: ../src/io.github.scarecrow-de.mutter.gschema.xml.in.h:14
 msgid "Determines whether the use of popup and highlight frame should be disabled for window cycling."
 msgstr ""
 
-#: ../src/org.gnome.mutter.gschema.xml.in.h:15
+#: ../src/io.github.scarecrow-de.mutter.gschema.xml.in.h:15
 msgid "Draggable border width"
 msgstr ""
 
-#: ../src/org.gnome.mutter.gschema.xml.in.h:16
+#: ../src/io.github.scarecrow-de.mutter.gschema.xml.in.h:16
 msgid "The amount of total draggable borders. If the theme's visible borders are not enough, invisible borders will be added to meet this value."
 msgstr ""
 
-#: ../src/org.gnome.mutter.gschema.xml.in.h:17
+#: ../src/io.github.scarecrow-de.mutter.gschema.xml.in.h:17
 #, fuzzy
 #| msgid "Move between windows with popup"
 msgid "Select window from tab popup"
 msgstr "جابه‌جایی بین پنجره‌ها با واشو"
 
-#: ../src/org.gnome.mutter.gschema.xml.in.h:18
+#: ../src/io.github.scarecrow-de.mutter.gschema.xml.in.h:18
 msgid "Cancel tab popup"
 msgstr ""
 

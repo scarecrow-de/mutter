@@ -57,9 +57,9 @@
 #define KEY_GRAVE 0x29 /* assume the use of xf86-input-keyboard */
 #endif
 
-#define SCHEMA_COMMON_KEYBINDINGS "org.gnome.desktop.wm.keybindings"
-#define SCHEMA_MUTTER_KEYBINDINGS "org.gnome.mutter.keybindings"
-#define SCHEMA_MUTTER_WAYLAND_KEYBINDINGS "org.gnome.mutter.wayland.keybindings"
+#define SCHEMA_COMMON_KEYBINDINGS "io.github.scarecrow-de.desktop.wm.keybindings"
+#define SCHEMA_MUTTER_KEYBINDINGS "io.github.scarecrow-de.mutter.keybindings"
+#define SCHEMA_MUTTER_WAYLAND_KEYBINDINGS "io.github.scarecrow-de.mutter.wayland.keybindings"
 
 #define META_KEY_BINDING_PRIMARY_LAYOUT 0
 #define META_KEY_BINDING_SECONDARY_LAYOUT 1
@@ -4162,13 +4162,13 @@ init_builtin_key_bindings (MetaDisplay *display)
                           META_KEYBINDING_ACTION_UNMAXIMIZE,
                           handle_unmaximize, 0);
 
-  add_builtin_keybinding (display,
+  /*add_builtin_keybinding (display,
                           "toggle-shaded",
                           common_keybindings,
                           META_KEY_BINDING_PER_WINDOW |
                           META_KEY_BINDING_IGNORE_AUTOREPEAT,
                           META_KEYBINDING_ACTION_TOGGLE_SHADED,
-                          handle_toggle_shaded, 0);
+                          handle_toggle_shaded, 0); */
 
   add_builtin_keybinding (display,
                           "minimize",

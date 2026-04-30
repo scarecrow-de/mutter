@@ -255,12 +255,12 @@ msgstr "Разделитель справа"
 msgid "Mutter"
 msgstr "Mutter"
 
-#: data/org.gnome.mutter.gschema.xml.in:7
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:7
 msgid "Modifier to use for extended window management operations"
 msgstr ""
 "Модификатор для использования дополнительных действий управления окнами"
 
-#: data/org.gnome.mutter.gschema.xml.in:8
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:8
 msgid ""
 "This key will initiate the “overlay”, which is a combination window overview "
 "and application launching system. The default is intended to be the “Windows "
@@ -271,11 +271,11 @@ msgstr ""
 "Для обычных ПК используется клавиша «Windows». Ожидается, что значение этой "
 "привязки будет иметь значение по умолчанию или будет пустой строкой."
 
-#: data/org.gnome.mutter.gschema.xml.in:20
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:20
 msgid "Attach modal dialogs"
 msgstr "Прикреплять модальные диалоговые окна"
 
-#: data/org.gnome.mutter.gschema.xml.in:21
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:21
 msgid ""
 "When true, instead of having independent titlebars, modal dialogs appear "
 "attached to the titlebar of the parent window and are moved together with "
@@ -285,11 +285,11 @@ msgstr ""
 "окна будут прикрепляться к заголовку родительского окна и перемещаться "
 "вместе с родительским окном."
 
-#: data/org.gnome.mutter.gschema.xml.in:30
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:30
 msgid "Enable edge tiling when dropping windows on screen edges"
 msgstr "Включить краевые фреймы при перемещении окон к границам экрана"
 
-#: data/org.gnome.mutter.gschema.xml.in:31
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:31
 msgid ""
 "If enabled, dropping windows on vertical screen edges maximizes them "
 "vertically and resizes them horizontally to cover half of the available "
@@ -300,25 +300,25 @@ msgstr ""
 "покрывая половину доступного места. Перемещение окна к верхней части экрана "
 "полностью разворачивает окно."
 
-#: data/org.gnome.mutter.gschema.xml.in:40
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:40
 msgid "Workspaces are managed dynamically"
 msgstr "Рабочие места управляются динамически"
 
-#: data/org.gnome.mutter.gschema.xml.in:41
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:41
 msgid ""
 "Determines whether workspaces are managed dynamically or whether there’s a "
 "static number of workspaces (determined by the num-workspaces key in org."
 "gnome.desktop.wm.preferences)."
 msgstr ""
 "Определяет, управляются ли рабочие места динамически или количество рабочих "
-"мест постоянно (количество задаётся ключом в org.gnome.desktop.wm."
+"мест постоянно (количество задаётся ключом в io.github.scarecrow-de.desktop.wm."
 "preferences)."
 
-#: data/org.gnome.mutter.gschema.xml.in:50
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:50
 msgid "Workspaces only on primary"
 msgstr "Рабочие места только на главном окне"
 
-#: data/org.gnome.mutter.gschema.xml.in:51
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:51
 msgid ""
 "Determines whether workspace switching should happen for windows on all "
 "monitors or only for windows on the primary monitor."
@@ -326,11 +326,11 @@ msgstr ""
 "Определяет, должно ли переключение рабочего места происходить для окон на "
 "всех мониторах или только для окон на главном мониторе."
 
-#: data/org.gnome.mutter.gschema.xml.in:59
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:59
 msgid "No tab popup"
 msgstr "Без всплывающей табуляции"
 
-#: data/org.gnome.mutter.gschema.xml.in:60
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:60
 msgid ""
 "Determines whether the use of popup and highlight frame should be disabled "
 "for window cycling."
@@ -338,11 +338,11 @@ msgstr ""
 "Определяет, нужно ли отключить использование всплывающей области для "
 "циклического переключения окон."
 
-#: data/org.gnome.mutter.gschema.xml.in:68
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:68
 msgid "Delay focus changes until the pointer stops moving"
 msgstr "Отложить переключение фокуса до тех пор, пока не остановится указатель"
 
-#: data/org.gnome.mutter.gschema.xml.in:69
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:69
 msgid ""
 "If set to true, and the focus mode is either “sloppy” or “mouse” then the "
 "focus will not be changed immediately when entering a window, but only after "
@@ -352,11 +352,11 @@ msgstr ""
 "«sloppy» или «mouse», тогда фокус не будет меняться при переходе к другому "
 "окну до тех пор, пока не остановится указатель."
 
-#: data/org.gnome.mutter.gschema.xml.in:79
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:79
 msgid "Draggable border width"
 msgstr "Ширина рамки перетаскивания"
 
-#: data/org.gnome.mutter.gschema.xml.in:80
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:80
 msgid ""
 "The amount of total draggable borders. If the theme’s visible borders are "
 "not enough, invisible borders will be added to meet this value."
@@ -364,11 +364,11 @@ msgstr ""
 "Общая ширина рамок для перетаскивания. Если видимых рамок, используемых в "
 "теме, недостаточно, то будут добавлены невидимые рамки до этого значения."
 
-#: data/org.gnome.mutter.gschema.xml.in:89
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:89
 msgid "Auto maximize nearly monitor sized windows"
 msgstr "Автоматически увеличивать размеры окна до размеров монитора"
 
-#: data/org.gnome.mutter.gschema.xml.in:90
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:90
 msgid ""
 "If enabled, new windows that are initially the size of the monitor "
 "automatically get maximized."
@@ -376,11 +376,11 @@ msgstr ""
 "Если включено, новые окна будут автоматически увеличены до максимального "
 "размера."
 
-#: data/org.gnome.mutter.gschema.xml.in:98
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:98
 msgid "Place new windows in the center"
 msgstr "Размещать новые окна в центре"
 
-#: data/org.gnome.mutter.gschema.xml.in:99
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:99
 msgid ""
 "When true, the new windows will always be put in the center of the active "
 "screen of the monitor."
@@ -388,11 +388,11 @@ msgstr ""
 "Если выбрано, то новые окна всегда будут помещаться в центр активного экрана "
 "монитора."
 
-#: data/org.gnome.mutter.gschema.xml.in:107
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:107
 msgid "Enable experimental features"
 msgstr "Включить экспериментальные функции"
 
-#: data/org.gnome.mutter.gschema.xml.in:108
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:108
 msgid ""
 "To enable experimental features, add the feature keyword to the list. "
 "Whether the feature requires restarting the compositor depends on the given "
@@ -420,20 +420,20 @@ msgstr ""
 "перезапуска. - \"autostart-xwayland\" - лениво инициализирует Xwayland, если "
 "есть клиенты X11. Требуется перезапуск."
 
-#: data/org.gnome.mutter.gschema.xml.in:134
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:134
 msgid "Modifier to use to locate the pointer"
 msgstr "Модификатор, используемый для определения местоположения указателя"
 
-#: data/org.gnome.mutter.gschema.xml.in:135
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:135
 msgid "This key will initiate the “locate pointer” action."
 msgstr ""
 "Эта клавиша инициирует действие \"определить местоположение указателя\"."
 
-#: data/org.gnome.mutter.gschema.xml.in:142
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:142
 msgid "Timeout for check-alive ping"
 msgstr "Тайм-аут для пинга с проверкой работоспособности"
 
-#: data/org.gnome.mutter.gschema.xml.in:143
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:143
 msgid ""
 "Number of milliseconds a client has to respond to a ping request in order to "
 "not be detected as frozen. Using 0 will disable the alive check completely."
@@ -442,80 +442,80 @@ msgstr ""
 "ping, чтобы не быть определенным как \"замороженный\". Использование "
 "значения 0 полностью отключает проверку \"живого\" клиента."
 
-#: data/org.gnome.mutter.gschema.xml.in:165
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:165
 msgid "Select window from tab popup"
 msgstr "Выбор окна из всплывающей табуляции"
 
-#: data/org.gnome.mutter.gschema.xml.in:170
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:170
 msgid "Cancel tab popup"
 msgstr "Отменить всплывающую табуляцию"
 
-#: data/org.gnome.mutter.gschema.xml.in:175
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:175
 msgid "Switch monitor configurations"
 msgstr "Переключить конфигурации монитора"
 
-#: data/org.gnome.mutter.gschema.xml.in:180
+#: data/io.github.scarecrow-de.mutter.gschema.xml.in:180
 msgid "Rotates the built-in monitor configuration"
 msgstr "Перебирает встроенные конфигурации монитора"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:12
+#: data/io.github.scarecrow-de.mutter.wayland.gschema.xml.in:12
 msgid "Switch to VT 1"
 msgstr "Переключиться на виртуальный терминал 1"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:16
+#: data/io.github.scarecrow-de.mutter.wayland.gschema.xml.in:16
 msgid "Switch to VT 2"
 msgstr "Переключиться на виртуальный терминал 2"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:20
+#: data/io.github.scarecrow-de.mutter.wayland.gschema.xml.in:20
 msgid "Switch to VT 3"
 msgstr "Переключиться на виртуальный терминал 3"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:24
+#: data/io.github.scarecrow-de.mutter.wayland.gschema.xml.in:24
 msgid "Switch to VT 4"
 msgstr "Переключиться на виртуальный терминал 4"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:28
+#: data/io.github.scarecrow-de.mutter.wayland.gschema.xml.in:28
 msgid "Switch to VT 5"
 msgstr "Переключиться на виртуальный терминал 5"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:32
+#: data/io.github.scarecrow-de.mutter.wayland.gschema.xml.in:32
 msgid "Switch to VT 6"
 msgstr "Переключиться на виртуальный терминал 6"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:36
+#: data/io.github.scarecrow-de.mutter.wayland.gschema.xml.in:36
 msgid "Switch to VT 7"
 msgstr "Переключиться на виртуальный терминал 7"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:40
+#: data/io.github.scarecrow-de.mutter.wayland.gschema.xml.in:40
 msgid "Switch to VT 8"
 msgstr "Переключиться на виртуальный терминал 8"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:44
+#: data/io.github.scarecrow-de.mutter.wayland.gschema.xml.in:44
 msgid "Switch to VT 9"
 msgstr "Переключиться на виртуальный терминал 9"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:48
+#: data/io.github.scarecrow-de.mutter.wayland.gschema.xml.in:48
 msgid "Switch to VT 10"
 msgstr "Переключиться на виртуальный терминал 10"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:52
+#: data/io.github.scarecrow-de.mutter.wayland.gschema.xml.in:52
 msgid "Switch to VT 11"
 msgstr "Переключиться на виртуальный терминал 11"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:56
+#: data/io.github.scarecrow-de.mutter.wayland.gschema.xml.in:56
 msgid "Switch to VT 12"
 msgstr "Переключиться на виртуальный терминал 12"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:60
+#: data/io.github.scarecrow-de.mutter.wayland.gschema.xml.in:60
 msgid "Re-enable shortcuts"
 msgstr "Разрешить комбинации клавиш снова"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:70
+#: data/io.github.scarecrow-de.mutter.wayland.gschema.xml.in:70
 msgid "Allow X11 grabs to lock keyboard focus with Xwayland"
 msgstr ""
 "Разрешить X11-грабберам блокировать фокус клавиатуры с помощью Xwayland"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:71
+#: data/io.github.scarecrow-de.mutter.wayland.gschema.xml.in:71
 msgid ""
 "Allow all keyboard events to be routed to X11 “override redirect” windows "
 "with a grab when running in Xwayland. This option is to support X11 clients "
@@ -538,11 +538,11 @@ msgstr ""
 "окну, либо быть среди приложений, разрешенных в ключевых \"xwayland-grab-"
 "access-rules\"."
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:90
+#: data/io.github.scarecrow-de.mutter.wayland.gschema.xml.in:90
 msgid "Xwayland applications allowed to issue keyboard grabs"
 msgstr "Приложениям Xwayland разрешено производить захват клавиатуры"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:91
+#: data/io.github.scarecrow-de.mutter.wayland.gschema.xml.in:91
 msgid ""
 "List the resource names or resource class of X11 windows either allowed or "
 "not allowed to issue X11 keyboard grabs under Xwayland. The resource name or "
@@ -566,11 +566,11 @@ msgstr ""
 "существующий захват, используя конкретное сочетание клавиш, определенное "
 "клавишей привязки \"restore-shortcuts\"."
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:116
+#: data/io.github.scarecrow-de.mutter.wayland.gschema.xml.in:116
 msgid "Disable selected X extensions in Xwayland"
 msgstr "Отключение выбранных расширений X в Xwayland"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:117
+#: data/io.github.scarecrow-de.mutter.wayland.gschema.xml.in:117
 msgid ""
 "This option disables the selected X extensions in Xwayland if Xwayland was "
 "built with support for those X extensions. This option has no effect if "
