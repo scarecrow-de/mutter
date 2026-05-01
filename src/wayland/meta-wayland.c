@@ -311,7 +311,7 @@ set_gnome_env (const char *name,
 
   result = g_dbus_connection_call_sync (session_bus,
 			       "io.github.scarecrow-de.SessionManager",
-			       "/io.github.scarecrow-de.SessionManager",
+			       "/io/github/scarecrow-de/de.SessionManager",
 			       "io.github.scarecrow-de.SessionManager",
 			       "Setenv",
 			       g_variant_new ("(ss)", name, value),

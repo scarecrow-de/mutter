@@ -1,5 +1,5 @@
 <schemalist>
-  <schema id="io.github.scarecrow-de.mutter" path="/io.github.scarecrow-de.mutter/"
+  <schema id="io.github.scarecrow-de.mutter" path="/io/github/scarecrow-de/de.mutter/"
           gettext-domain="@GETTEXT_DOMAIN@">
 
     <key name="overlay-key" type="s">
@@ -150,7 +150,7 @@
     <child name="keybindings" schema="io.github.scarecrow-de.mutter.keybindings"/>
 
   </schema>
-  <schema id="io.github.scarecrow-de.mutter.keybindings" path="/io.github.scarecrow-de.mutter/keybindings/">
+  <schema id="io.github.scarecrow-de.mutter.keybindings" path="/io/github/scarecrow-de/de.mutter/keybindings/">
 
     <key name="toggle-tiled-left" type="as">
       <default><![CDATA[['<Super>Left']]]></default>

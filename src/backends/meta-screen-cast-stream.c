@@ -29,7 +29,7 @@
 #include "meta-private-enum-types.h"
 
 #define META_SCREEN_CAST_STREAM_DBUS_IFACE "io.github.scarecrow-de.Mutter.ScreenCast.Stream"
-#define META_SCREEN_CAST_STREAM_DBUS_PATH "/io.github.scarecrow-de.Mutter/ScreenCast/Stream"
+#define META_SCREEN_CAST_STREAM_DBUS_PATH "/io/github/scarecrow-de/de.Mutter/ScreenCast/Stream"
 
 enum
 {

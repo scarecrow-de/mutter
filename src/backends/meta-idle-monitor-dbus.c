@@ -218,12 +218,12 @@ on_bus_acquired (GDBusConnection *connection,
   MetaIdleMonitor *monitor;
   char *path;
 
-  manager = g_dbus_object_manager_server_new ("/io.github.scarecrow-de.Mutter/IdleMonitor");
+  manager = g_dbus_object_manager_server_new ("/io/github/scarecrow-de/de.Mutter/IdleMonitor");
 
   /* We never clear the core monitor, as that's supposed to cumulate idle times from
      all devices */
   monitor = meta_idle_monitor_get_core ();
-  path = g_strdup ("/io.github.scarecrow-de.Mutter/IdleMonitor/Core");
+  path = g_strdup ("/io/github/scarecrow-de/de.Mutter/IdleMonitor/Core");
   create_monitor_skeleton (manager, monitor, path);
   g_free (path);
 

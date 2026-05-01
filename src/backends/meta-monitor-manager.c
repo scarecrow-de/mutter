@@ -2390,7 +2390,7 @@ on_bus_acquired (GDBusConnection *connection,
 
   g_dbus_interface_skeleton_export (G_DBUS_INTERFACE_SKELETON (manager->display_config),
                                     connection,
-                                    "/io.github.scarecrow-de.Mutter/DisplayConfig",
+                                    "/io/github/scarecrow-de/de.Mutter/DisplayConfig",
                                     NULL);
 }
 

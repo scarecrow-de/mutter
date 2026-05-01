@@ -5,7 +5,7 @@
     <value nick="Xtest" value="2"/>
   </flags>
 
-  <schema id="io.github.scarecrow-de.mutter.wayland.keybindings" path="/io.github.scarecrow-de.mutter/wayland/keybindings/"
+  <schema id="io.github.scarecrow-de.mutter.wayland.keybindings" path="/io/github/scarecrow-de/de.mutter/wayland/keybindings/"
 	  gettext-domain="@GETTEXT_DOMAIN@">
     <key name="switch-to-session-1" type="as">
       <default><![CDATA[['<Primary><Alt>F1']]]></default>
@@ -62,7 +62,7 @@
   </schema>
 
 
-  <schema id="io.github.scarecrow-de.mutter.wayland" path="/io.github.scarecrow-de.mutter/wayland/"
+  <schema id="io.github.scarecrow-de.mutter.wayland" path="/io/github/scarecrow-de/de.mutter/wayland/"
           gettext-domain="@GETTEXT_DOMAIN@">
 
     <key name="xwayland-allow-grabs" type="b">

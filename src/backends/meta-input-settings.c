@@ -1548,7 +1548,7 @@ lookup_device_settings (ClutterInputDevice *device)
 
   vendor = clutter_input_device_get_vendor_id (device);
   product = clutter_input_device_get_product_id (device);
-  path = g_strdup_printf ("/io.github.scarecrow-de.desktop/peripherals/%s/%s:%s/",
+  path = g_strdup_printf ("/io/github/scarecrow-de/de.desktop/peripherals/%s/%s:%s/",
                           group, vendor, product);
 
   settings = g_settings_new_with_path (schema, path);
@@ -1575,13 +1575,13 @@ lookup_tool_settings (ClutterInputDeviceTool *tool,
    * real serial, so let's custom-case this */
   if (serial == 0 || serial == 1)
     {
-      path = g_strdup_printf ("/io.github.scarecrow-de.desktop/peripherals/stylus/default-%s:%s/",
+      path = g_strdup_printf ("/io/github/scarecrow-de/de.desktop/peripherals/stylus/default-%s:%s/",
                               clutter_input_device_get_vendor_id (device),
                               clutter_input_device_get_product_id (device));
     }
   else
     {
-      path = g_strdup_printf ("/io.github.scarecrow-de.desktop/peripherals/stylus/%" G_GINT64_MODIFIER "x/",
+      path = g_strdup_printf ("/io/github/scarecrow-de/de.desktop/peripherals/stylus/%" G_GINT64_MODIFIER "x/",
                               serial);
     }
 
@@ -1634,7 +1634,7 @@ lookup_pad_action_settings (ClutterInputDevice *device,
     }
 
   path = g_string_new (NULL);
-  g_string_append_printf (path, "/io.github.scarecrow-de.desktop/peripherals/tablets/%s:%s/%s%c",
+  g_string_append_printf (path, "/io/github/scarecrow-de/de.desktop/peripherals/tablets/%s:%s/%s%c",
                           vendor, product, action_type, action_label);
 
   if (detail_type)

@@ -27,7 +27,7 @@
 
 #include "cogl/cogl.h"
 
-#define META_SYSPROF_PROFILER_DBUS_PATH "/io.github.scarecrow-de.Sysprof3/Profiler"
+#define META_SYSPROF_PROFILER_DBUS_PATH "/io/github/scarecrow-de/de.Sysprof3/Profiler"
 
 struct _MetaProfiler
 {

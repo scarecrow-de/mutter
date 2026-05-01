@@ -39,7 +39,7 @@
 #include "meta-dbus-remote-desktop.h"
 
 #define META_REMOTE_DESKTOP_DBUS_SERVICE "io.github.scarecrow-de.Mutter.RemoteDesktop"
-#define META_REMOTE_DESKTOP_DBUS_PATH "/io.github.scarecrow-de.Mutter/RemoteDesktop"
+#define META_REMOTE_DESKTOP_DBUS_PATH "/io/github/scarecrow-de/de.Mutter/RemoteDesktop"
 #define META_REMOTE_DESKTOP_API_VERSION 1
 
 typedef enum _MetaRemoteDesktopDeviceTypes

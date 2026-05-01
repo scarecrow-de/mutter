@@ -245,7 +245,7 @@ meta_idle_monitor_init (MetaIdleMonitor *monitor)
                                    G_DBUS_PROXY_FLAGS_DO_NOT_AUTO_START,
                                    NULL,
                                    "io.github.scarecrow-de.SessionManager",
-                                   "/io.github.scarecrow-de.SessionManager",
+                                   "/io/github/scarecrow-de/de.SessionManager",
                                    "io.github.scarecrow-de.SessionManager",
                                    NULL,
                                    NULL);

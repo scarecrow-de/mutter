@@ -33,7 +33,7 @@
 #include "backends/meta-screen-cast-window-stream.h"
 #include "core/display-private.h"
 
-#define META_SCREEN_CAST_SESSION_DBUS_PATH "/io.github.scarecrow-de.Mutter/ScreenCast/Session"
+#define META_SCREEN_CAST_SESSION_DBUS_PATH "/io/github/scarecrow-de/de.Mutter/ScreenCast/Session"
 
 struct _MetaScreenCastSession
 {
