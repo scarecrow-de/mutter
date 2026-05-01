@@ -279,7 +279,7 @@ on_bus_acquired (GDBusConnection *connection,
   if (!g_dbus_interface_skeleton_export (interface_skeleton,
                                          connection,
                                          META_SCREEN_CAST_DBUS_PATH,
-                                         &error))
+                                         &error) && error != NULL)
     g_warning ("Failed to export remote desktop object: %s\n", error->message);
 }
 
