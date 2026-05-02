@@ -1532,7 +1532,7 @@ lookup_device_settings (ClutterInputDevice *device)
   if (type == CLUTTER_TOUCHSCREEN_DEVICE)
     {
       group = "touchscreens";
-      schema = "org.gnome.desktop.peripherals.touchscreen";
+      schema = "io.github.scarecrow-de.desktop.peripherals.touchscreen";
     }
   else if (type == CLUTTER_TABLET_DEVICE ||
            type == CLUTTER_PEN_DEVICE ||
@@ -1541,14 +1541,14 @@ lookup_device_settings (ClutterInputDevice *device)
            type == CLUTTER_PAD_DEVICE)
     {
       group = "tablets";
-      schema = "org.gnome.desktop.peripherals.tablet";
+      schema = "io.github.scarecrow-de.desktop.peripherals.tablet";
     }
   else
     return NULL;
 
   vendor = clutter_input_device_get_vendor_id (device);
   product = clutter_input_device_get_product_id (device);
-  path = g_strdup_printf ("/org/gnome/desktop/peripherals/%s/%s:%s/",
+  path = g_strdup_printf ("/io/github/scarecrow-de/desktop/peripherals/%s/%s:%s/",
                           group, vendor, product);
 
   settings = g_settings_new_with_path (schema, path);
@@ -1575,18 +1575,18 @@ lookup_tool_settings (ClutterInputDeviceTool *tool,
    * real serial, so let's custom-case this */
   if (serial == 0 || serial == 1)
     {
-      path = g_strdup_printf ("/org/gnome/desktop/peripherals/stylus/default-%s:%s/",
+      path = g_strdup_printf ("/io/github/scarecrow-de/desktop/peripherals/stylus/default-%s:%s/",
                               clutter_input_device_get_vendor_id (device),
                               clutter_input_device_get_product_id (device));
     }
   else
     {
-      path = g_strdup_printf ("/org/gnome/desktop/peripherals/stylus/%" G_GINT64_MODIFIER "x/",
+      path = g_strdup_printf ("/io/github/scarecrow-de/desktop/peripherals/stylus/%" G_GINT64_MODIFIER "x/",
                               serial);
     }
 
   tool_settings =
-    g_settings_new_with_path ("org.gnome.desktop.peripherals.tablet.stylus",
+    g_settings_new_with_path ("io.github.scarecrow-de.desktop.peripherals.tablet.stylus",
                               path);
   g_object_set_qdata_full (G_OBJECT (tool), quark_tool_settings, tool_settings,
                            (GDestroyNotify) g_object_unref);
@@ -1634,7 +1634,7 @@ lookup_pad_action_settings (ClutterInputDevice *device,
     }
 
   path = g_string_new (NULL);
-  g_string_append_printf (path, "/org/gnome/desktop/peripherals/tablets/%s:%s/%s%c",
+  g_string_append_printf (path, "/io/github/scarecrow-de/desktop/peripherals/tablets/%s:%s/%s%c",
                           vendor, product, action_type, action_label);
 
   if (detail_type)
@@ -1645,7 +1645,7 @@ lookup_pad_action_settings (ClutterInputDevice *device,
 
   g_string_append_c (path, '/');
 
-  settings = g_settings_new_with_path ("org.gnome.desktop.peripherals.tablet.pad-button",
+  settings = g_settings_new_with_path ("io.github.scarecrow-de.desktop.peripherals.tablet.pad-button",
                                        path->str);
   g_string_free (path, TRUE);
 
@@ -2064,35 +2064,35 @@ meta_input_settings_init (MetaInputSettings *settings)
   g_signal_connect (priv->seat, "tool-changed",
                     G_CALLBACK (meta_input_settings_tool_changed), settings);
 
-  priv->mouse_settings = g_settings_new ("org.gnome.desktop.peripherals.mouse");
+  priv->mouse_settings = g_settings_new ("io.github.scarecrow-de.desktop.peripherals.mouse");
   g_signal_connect (priv->mouse_settings, "changed",
                     G_CALLBACK (meta_input_settings_changed_cb), settings);
 
-  priv->touchpad_settings = g_settings_new ("org.gnome.desktop.peripherals.touchpad");
+  priv->touchpad_settings = g_settings_new ("io.github.scarecrow-de.desktop.peripherals.touchpad");
   g_signal_connect (priv->touchpad_settings, "changed",
                     G_CALLBACK (meta_input_settings_changed_cb), settings);
 
-  priv->trackball_settings = g_settings_new ("org.gnome.desktop.peripherals.trackball");
+  priv->trackball_settings = g_settings_new ("io.github.scarecrow-de.desktop.peripherals.trackball");
   g_signal_connect (priv->trackball_settings, "changed",
                     G_CALLBACK (meta_input_settings_changed_cb), settings);
 
-  priv->keyboard_settings = g_settings_new ("org.gnome.desktop.peripherals.keyboard");
+  priv->keyboard_settings = g_settings_new ("io.github.scarecrow-de.desktop.peripherals.keyboard");
   g_signal_connect (priv->keyboard_settings, "changed",
                     G_CALLBACK (meta_input_settings_changed_cb), settings);
 
-  priv->gsd_settings = g_settings_new ("org.gnome.settings-daemon.peripherals.mouse");
+  priv->gsd_settings = g_settings_new ("io.github.scarecrow-de.settings-daemon.peripherals.mouse");
 
   g_settings_bind (priv->gsd_settings, "double-click",
                    clutter_settings_get_default(), "double-click-time",
                    G_SETTINGS_BIND_GET);
 
-  priv->keyboard_a11y_settings = g_settings_new ("org.gnome.desktop.a11y.keyboard");
+  priv->keyboard_a11y_settings = g_settings_new ("io.github.scarecrow-de.desktop.a11y.keyboard");
   g_signal_connect (priv->keyboard_a11y_settings, "changed",
                     G_CALLBACK (meta_input_keyboard_a11y_settings_changed), settings);
   g_signal_connect (priv->seat, "kbd-a11y-flags-changed",
                     G_CALLBACK (on_keyboard_a11y_settings_changed), settings);
 
-  priv->mouse_a11y_settings = g_settings_new ("org.gnome.desktop.a11y.mouse");
+  priv->mouse_a11y_settings = g_settings_new ("io.github.scarecrow-de.desktop.a11y.mouse");
   g_signal_connect (priv->mouse_a11y_settings, "changed",
                     G_CALLBACK (meta_input_mouse_a11y_settings_changed), settings);
 

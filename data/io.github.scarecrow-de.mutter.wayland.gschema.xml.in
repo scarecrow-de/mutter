@@ -1,11 +1,11 @@
 <schemalist>
 
-  <flags id="org.gnome.mutter.MetaXwaylandDisableExtension">
+  <flags id="io.github.scarecrow-de.mutter.MetaXwaylandDisableExtension">
     <value nick="Security" value="1"/>
     <value nick="Xtest" value="2"/>
   </flags>
 
-  <schema id="org.gnome.mutter.wayland.keybindings" path="/org/gnome/mutter/wayland/keybindings/"
+  <schema id="io.github.scarecrow-de.mutter.wayland.keybindings" path="/io/github/scarecrow-de/mutter/wayland/keybindings/"
 	  gettext-domain="@GETTEXT_DOMAIN@">
     <key name="switch-to-session-1" type="as">
       <default><![CDATA[['<Primary><Alt>F1']]]></default>
@@ -62,7 +62,7 @@
   </schema>
 
 
-  <schema id="org.gnome.mutter.wayland" path="/org/gnome/mutter/wayland/"
+  <schema id="io.github.scarecrow-de.mutter.wayland" path="/io/github/scarecrow-de/mutter/wayland/"
           gettext-domain="@GETTEXT_DOMAIN@">
 
     <key name="xwayland-allow-grabs" type="b">
@@ -111,7 +111,7 @@
     </key>
 
     <key name="xwayland-disable-extension"
-        flags='org.gnome.mutter.MetaXwaylandDisableExtension'>
+        flags='io.github.scarecrow-de.mutter.MetaXwaylandDisableExtension'>
       <default>[]</default>
       <summary>Disable selected X extensions in Xwayland</summary>
       <description>
