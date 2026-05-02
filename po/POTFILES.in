@@ -5,8 +5,8 @@ data/50-mutter-system.xml
 data/50-mutter-wayland.xml
 data/50-mutter-windows.xml
 data/mutter.desktop.in
-data/io.github.scarecrow-de.mutter.gschema.xml.in
-data/io.github.scarecrow-de.mutter.wayland.gschema.xml.in
+data/io.github.scarecrow_de.mutter.gschema.xml.in
+data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in
 src/backends/meta-input-settings.c
 src/backends/meta-monitor.c
 src/backends/meta-monitor-manager.c

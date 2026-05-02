@@ -63,7 +63,7 @@
 #include "backends/native/meta-event-native.h"
 #endif
 
-#define GSD_KEYBOARD_SCHEMA "io.github.scarecrow-de.settings-daemon.peripherals.keyboard"
+#define GSD_KEYBOARD_SCHEMA "io.github.scarecrow_de.settings-daemon.peripherals.keyboard"
 
 G_DEFINE_TYPE (MetaWaylandKeyboard, meta_wayland_keyboard,
                META_TYPE_WAYLAND_INPUT_DEVICE)
@@ -529,7 +529,7 @@ meta_wayland_keyboard_enable (MetaWaylandKeyboard *keyboard)
   MetaBackend *backend = meta_get_backend ();
   ClutterBackend *clutter_backend = clutter_get_default_backend ();
 
-  keyboard->settings = g_settings_new ("io.github.scarecrow-de.desktop.peripherals.keyboard");
+  keyboard->settings = g_settings_new ("io.github.scarecrow_de.desktop.peripherals.keyboard");
   g_signal_connect (keyboard->settings, "changed",
                     G_CALLBACK (settings_changed), keyboard);
 
