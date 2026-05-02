@@ -529,7 +529,7 @@ meta_wayland_keyboard_enable (MetaWaylandKeyboard *keyboard)
   MetaBackend *backend = meta_get_backend ();
   ClutterBackend *clutter_backend = clutter_get_default_backend ();
 
-  keyboard->settings = g_settings_new ("io.github.scarecrow_de.desktop.peripherals.keyboard");
+  keyboard->settings = g_settings_new ("org.gnome.desktop.peripherals.keyboard");
   g_signal_connect (keyboard->settings, "changed",
                     G_CALLBACK (settings_changed), keyboard);
 
