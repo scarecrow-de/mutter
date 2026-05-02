@@ -4162,13 +4162,14 @@ init_builtin_key_bindings (MetaDisplay *display)
                           META_KEYBINDING_ACTION_UNMAXIMIZE,
                           handle_unmaximize, 0);
 
-  add_builtin_keybinding (display,
+  // modern GNOME desktop schemas don't have this
+  /* add_builtin_keybinding (display,
                           "toggle-shaded",
                           common_keybindings,
                           META_KEY_BINDING_PER_WINDOW |
                           META_KEY_BINDING_IGNORE_AUTOREPEAT,
                           META_KEYBINDING_ACTION_TOGGLE_SHADED,
-                          handle_toggle_shaded, 0);
+                          handle_toggle_shaded, 0); */
 
   add_builtin_keybinding (display,
                           "minimize",
