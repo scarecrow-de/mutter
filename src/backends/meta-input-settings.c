@@ -73,7 +73,7 @@ struct _MetaInputSettingsPrivate
   GSettings *touchpad_settings;
   GSettings *trackball_settings;
   GSettings *keyboard_settings;
-  GSettings *gsd_settings;
+  GSettings *scsd_settings;
   GSettings *keyboard_a11y_settings;
   GSettings *mouse_a11y_settings;
 
@@ -159,7 +159,7 @@ meta_input_settings_dispose (GObject *object)
   g_clear_object (&priv->touchpad_settings);
   g_clear_object (&priv->trackball_settings);
   g_clear_object (&priv->keyboard_settings);
-  g_clear_object (&priv->gsd_settings);
+  g_clear_object (&priv->scsd_settings);
   g_clear_object (&priv->keyboard_a11y_settings);
   g_clear_object (&priv->mouse_a11y_settings);
   g_clear_object (&priv->input_mapper);
@@ -2080,9 +2080,9 @@ meta_input_settings_init (MetaInputSettings *settings)
   g_signal_connect (priv->keyboard_settings, "changed",
                     G_CALLBACK (meta_input_settings_changed_cb), settings);
 
-  priv->gsd_settings = g_settings_new ("io.github.scarecrow_de.settings-daemon.peripherals.mouse");
+  priv->scsd_settings = g_settings_new ("io.github.scarecrow_de.settings-daemon.peripherals.mouse");
 
-  g_settings_bind (priv->gsd_settings, "double-click",
+  g_settings_bind (priv->scsd_settings, "double-click",
                    clutter_settings_get_default(), "double-click-time",
                    G_SETTINGS_BIND_GET);
 

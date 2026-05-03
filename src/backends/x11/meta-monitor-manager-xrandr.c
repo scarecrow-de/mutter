@@ -60,7 +60,7 @@
 #include "meta/meta-x11-errors.h"
 
 /* Look for DPI_FALLBACK in:
- * http://git.gnome.org/browse/gnome-settings-daemon/tree/plugins/xsettings/gsd-xsettings-manager.c
+ * http://git.gnome.org/browse/gnome-settings-daemon/tree/plugins/xsettings/scsd-xsettings-manager.c
  * for the reasoning */
 #define DPI_FALLBACK 96.0
 

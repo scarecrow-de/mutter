@@ -3061,7 +3061,7 @@ msgstr "Dette er ein demoknapp med ein «Avslutt»-knapp"
 
 #: ../src/ui/theme-viewer.c:241
 msgid "This is a sample message in a sample dialog"
-msgstr "Dette er eit meldingsdøme i eit dialogdøme"
+msgstr "Dette er eit meldinscsdøme i eit dialogdøme"
 
 #: ../src/ui/theme-viewer.c:324
 #, c-format

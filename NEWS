@@ -1817,7 +1817,7 @@ Translations:
 =======
 * Ensure pointer visibility on monitor changes [Rui, Marek; #745121, #745752]
 * Fix geometry of shaded windows [Florian; #746145]
-* Take over cursor visibility handling from gsd [Carlos; #712775]
+* Take over cursor visibility handling from scsd [Carlos; #712775]
 * Fix touch interaction on window decorations [Carlos; #745335]
 * Add options for libinput_config_click_method [Carlos; #746290]
 * Scale window decorations on HiDPI displays [Florian; #744354]
