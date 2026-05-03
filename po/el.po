@@ -276,11 +276,11 @@ msgstr "Μεγιστοποίηση στα δεξιά"
 msgid "Mutter"
 msgstr "Mutter"
 
-#: data/org.gnome.mutter.gschema.xml.in:7
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:7
 msgid "Modifier to use for extended window management operations"
 msgstr "Μετατροπέας για χρήση στις εκτεταμένες ενέργειες διαχείρισης παραθύρων"
 
-#: data/org.gnome.mutter.gschema.xml.in:8
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:8
 msgid ""
 "This key will initiate the “overlay”, which is a combination window overview "
 "and application launching system. The default is intended to be the “Windows "
@@ -292,11 +292,11 @@ msgstr ""
 "είναι το «πλήκτρο Windows» σε μηχανήματα PC. Αναμένεται ότι αυτή η "
 "αντιστοίχιση θα είναι είτε η προεπιλογή ή θα ορίζεται στην κενή συμβολοσειρά."
 
-#: data/org.gnome.mutter.gschema.xml.in:20
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:20
 msgid "Attach modal dialogs"
 msgstr "Επισύναψη σχηματικών διαλόγων"
 
-#: data/org.gnome.mutter.gschema.xml.in:21
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:21
 msgid ""
 "When true, instead of having independent titlebars, modal dialogs appear "
 "attached to the titlebar of the parent window and are moved together with "
@@ -306,13 +306,13 @@ msgstr ""
 "εμφανίζονται στην μπάρα τίτλου του γονικού παραθύρου και μετακινούνται μαζί "
 "με το γονικό παράθυρο."
 
-#: data/org.gnome.mutter.gschema.xml.in:30
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:30
 msgid "Enable edge tiling when dropping windows on screen edges"
 msgstr ""
 "Ενεργοποίηση της παράθεσης παραθύρων όταν τα μετακινείτε στις άκρες της "
 "οθόνης"
 
-#: data/org.gnome.mutter.gschema.xml.in:31
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:31
 msgid ""
 "If enabled, dropping windows on vertical screen edges maximizes them "
 "vertically and resizes them horizontally to cover half of the available "
@@ -323,11 +323,11 @@ msgstr ""
 "καλύψουν το μισό της οθόνης. Το σύρσιμο των παραθύρων στο πάνω μέρος της "
 "οθόνης τα μεγιστοποιεί ολοκληρωτικά."
 
-#: data/org.gnome.mutter.gschema.xml.in:40
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:40
 msgid "Workspaces are managed dynamically"
 msgstr "Οι χώροι εργασίας διαχειρίζονται δυναμικά"
 
-#: data/org.gnome.mutter.gschema.xml.in:41
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:41
 msgid ""
 "Determines whether workspaces are managed dynamically or whether there’s a "
 "static number of workspaces (determined by the num-workspaces key in org."
@@ -335,13 +335,13 @@ msgid ""
 msgstr ""
 "Καθορίζει εάν οι χώροι εργασίας διαχειρίζονται δυναμικά ή υπάρχει ένας "
 "στατικός αριθμός χώρων εργασίας (καθορίζεται από το κλειδί num-workspaces "
-"στο org.gnome.desktop.wm.preferences)."
+"στο io.github.scarecrow_de.desktop.wm.preferences)."
 
-#: data/org.gnome.mutter.gschema.xml.in:50
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:50
 msgid "Workspaces only on primary"
 msgstr "Χώροι εργασίας μόνο στην κύρια"
 
-#: data/org.gnome.mutter.gschema.xml.in:51
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:51
 msgid ""
 "Determines whether workspace switching should happen for windows on all "
 "monitors or only for windows on the primary monitor."
@@ -349,11 +349,11 @@ msgstr ""
 "Καθορίζει εάν η εναλλαγή των χώρων εργασίας θα συμβαίνει για τα παράθυρα σε "
 "όλες τις οθόνες ή μόνο για τα παράθυρα της κύριας οθόνης."
 
-#: data/org.gnome.mutter.gschema.xml.in:59
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:59
 msgid "No tab popup"
 msgstr "Καμία αναδυόμενη καρτέλα"
 
-#: data/org.gnome.mutter.gschema.xml.in:60
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:60
 msgid ""
 "Determines whether the use of popup and highlight frame should be disabled "
 "for window cycling."
@@ -361,12 +361,12 @@ msgstr ""
 "Καθορίζει αν πρέπει να απενεργοποιηθεί η χρήση της ανάδυσης και επισήμανσης "
 "του πλαισίου για την κυκλική εναλλαγή των παραθύρων."
 
-#: data/org.gnome.mutter.gschema.xml.in:68
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:68
 msgid "Delay focus changes until the pointer stops moving"
 msgstr ""
 "Η καθυστέρηση της εστίασης αλλάζει μέχρι ο δείκτης να σταματήσει να κινείται"
 
-#: data/org.gnome.mutter.gschema.xml.in:69
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:69
 msgid ""
 "If set to true, and the focus mode is either “sloppy” or “mouse” then the "
 "focus will not be changed immediately when entering a window, but only after "
@@ -376,11 +376,11 @@ msgstr ""
 "τότε η εστίαση δεν θα αλλάξει αμέσως όταν ανοίγετε ένα παράθυρο, αλλά μόνο "
 "όταν ο δείκτης σταματήσει να κινείται."
 
-#: data/org.gnome.mutter.gschema.xml.in:79
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:79
 msgid "Draggable border width"
 msgstr "Συρόμενο πλάτος περιγράμματος"
 
-#: data/org.gnome.mutter.gschema.xml.in:80
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:80
 msgid ""
 "The amount of total draggable borders. If the theme’s visible borders are "
 "not enough, invisible borders will be added to meet this value."
@@ -389,13 +389,13 @@ msgstr ""
 "θέματος δεν είναι αρκετά, θα προστεθούν αόρατα περιγράμματα για την κάλυψη "
 "αυτής της τιμής."
 
-#: data/org.gnome.mutter.gschema.xml.in:89
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:89
 msgid "Auto maximize nearly monitor sized windows"
 msgstr ""
 "Αυτόματη μεγιστοποίηση των παραθύρων των οποίων το μέγεθος είναι κοντά με το "
 "μέγεθος της οθόνης"
 
-#: data/org.gnome.mutter.gschema.xml.in:90
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:90
 msgid ""
 "If enabled, new windows that are initially the size of the monitor "
 "automatically get maximized."
@@ -403,11 +403,11 @@ msgstr ""
 "Εάν ενεργοποιηθεί, τα νέα παράθυρα που είναι αρχικά στο μέγεθος της οθόνης "
 "μεγιστοποιούνται αυτόματα."
 
-#: data/org.gnome.mutter.gschema.xml.in:98
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:98
 msgid "Place new windows in the center"
 msgstr "Τοποθέτηση νέων παραθύρων στο κέντρο"
 
-#: data/org.gnome.mutter.gschema.xml.in:99
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:99
 msgid ""
 "When true, the new windows will always be put in the center of the active "
 "screen of the monitor."
@@ -415,59 +415,59 @@ msgstr ""
 "Αν είναι αληθές, τα νέα παράθυρα θα είναι πάντα τοποθετημένα στο κέντρο της "
 "κύριας οθόνης."
 
-#: data/org.gnome.mutter.gschema.xml.in:120
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:120
 msgid "Select window from tab popup"
 msgstr "Επιλογή παραθύρου από την αναδυόμενη καρτέλα"
 
-#: data/org.gnome.mutter.gschema.xml.in:125
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:125
 msgid "Cancel tab popup"
 msgstr "Ακύρωση αναδυόμενης καρτέλας"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:6
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:6
 msgid "Switch to VT 1"
 msgstr "Εναλλαγή στο VT 1 "
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:10
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:10
 msgid "Switch to VT 2"
 msgstr "Εναλλαγή στο VT 2"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:14
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:14
 msgid "Switch to VT 3"
 msgstr "Εναλλαγή στο VT 3"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:18
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:18
 msgid "Switch to VT 4"
 msgstr "Εναλλαγή στο VT 4"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:22
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:22
 msgid "Switch to VT 5"
 msgstr "Εναλλαγή στο VT 5"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:26
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:26
 msgid "Switch to VT 6"
 msgstr "Εναλλαγή στο VT 6"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:30
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:30
 msgid "Switch to VT 7"
 msgstr "Εναλλαγή στο VT 7"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:34
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:34
 msgid "Switch to VT 8"
 msgstr "Εναλλαγή στο VT 8"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:38
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:38
 msgid "Switch to VT 9"
 msgstr "Εναλλαγή στο VT 9"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:42
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:42
 msgid "Switch to VT 10"
 msgstr "Εναλλαγή στο VT 10"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:46
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:46
 msgid "Switch to VT 11"
 msgstr "Εναλλαγή στο VT 11"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:50
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:50
 msgid "Switch to VT 12"
 msgstr "Εναλλαγή στο VT 12"
 

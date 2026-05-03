@@ -24,7 +24,7 @@
  */
 
 /*
- * Portions of this file are derived from gnome-desktop/libgnome-desktop/gnome-rr-config.c
+ * Portions of this file are derived from gnome-desktop/libscarecrow-desktop/scarecrow-rr-config.c
  *
  * Copyright 2007, 2008, Red Hat, Inc.
  * Copyright 2010 Giovanni Campagna

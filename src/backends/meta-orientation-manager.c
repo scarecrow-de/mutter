@@ -62,7 +62,7 @@ struct _MetaOrientationManager
 
 G_DEFINE_TYPE (MetaOrientationManager, meta_orientation_manager, G_TYPE_OBJECT)
 
-#define CONF_SCHEMA "org.gnome.settings-daemon.peripherals.touchscreen"
+#define CONF_SCHEMA "io.github.scarecrow_de.settings-daemon.peripherals.touchscreen"
 #define ORIENTATION_LOCK_KEY "orientation-lock"
 
 static MetaOrientation

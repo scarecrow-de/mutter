@@ -268,7 +268,7 @@ msgstr "Sgoilt an t-sealladh air an taobh deas"
 msgid "Mutter"
 msgstr "Mutter"
 
-#: data/org.gnome.mutter.gschema.xml.in:155
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:155
 #| msgid "Switch monitor"
 msgid "Switch monitor configurations"
 msgstr "Gearr leum eadar rèiteachaidhean monatair"

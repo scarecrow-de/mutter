@@ -17,7 +17,7 @@
  * along with this program; if not, see <http://www.gnu.org/licenses/>.
  *
  * Adapted from gnome-session/gnome-session/gs-idle-monitor.c and
- *         from gnome-desktop/libgnome-desktop/gnome-idle-monitor.c
+ *         from gnome-desktop/libscarecrow-desktop/scarecrow-idle-monitor.c
  */
 
 /**
@@ -244,9 +244,9 @@ meta_idle_monitor_init (MetaIdleMonitor *monitor)
                                    G_DBUS_PROXY_FLAGS_DO_NOT_CONNECT_SIGNALS |
                                    G_DBUS_PROXY_FLAGS_DO_NOT_AUTO_START,
                                    NULL,
-                                   "org.gnome.SessionManager",
-                                   "/org/gnome/SessionManager",
-                                   "org.gnome.SessionManager",
+                                   "io.github.scarecrow_de.SessionManager",
+                                   "/io/github/scarecrow_de/SessionManager",
+                                   "io.github.scarecrow_de.SessionManager",
                                    NULL,
                                    NULL);
   if (!monitor->session_proxy)

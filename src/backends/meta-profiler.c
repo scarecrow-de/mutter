@@ -27,7 +27,7 @@
 
 #include "cogl/cogl.h"
 
-#define META_SYSPROF_PROFILER_DBUS_PATH "/org/gnome/Sysprof3/Profiler"
+#define META_SYSPROF_PROFILER_DBUS_PATH "/io/github/scarecrow_de/Sysprof3/Profiler"
 
 struct _MetaProfiler
 {

@@ -268,11 +268,11 @@ msgstr "แบ่งจอแสดงที่ครึ่งขวา"
 msgid "Mutter"
 msgstr "Mutter"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:1
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:1
 msgid "Modifier to use for extended window management operations"
 msgstr "ปุ่ม modifier เพื่อใช้เข้าสู่การจัดการหน้าต่างแบบพิเศษ"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:2
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:2
 msgid ""
 "This key will initiate the \"overlay\", which is a combination window "
 "overview and application launching system. The default is intended to be the "
@@ -283,11 +283,11 @@ msgstr ""
 "ปุ่มปริยายเจตนาให้เป็นปุ่ม \"วินโดวส์\" ในเครื่องพีซีทั่วไป "
 "และคาดหมายว่าค่านี้จะเป็นค่าปริยายดังกล่าว หรือมิฉะนั้นก็เป็นสตริงว่างเปล่า"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:3
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:3
 msgid "Attach modal dialogs"
 msgstr "แนบกล่องโต้ตอบแบบโมดัล"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:4
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:4
 msgid ""
 "When true, instead of having independent titlebars, modal dialogs appear "
 "attached to the titlebar of the parent window and are moved together with "
@@ -296,11 +296,11 @@ msgstr ""
 "ถ้ากำหนดเป็นค่าจริง แทนที่กล่องโต้ตอบโมดัลจะมีแถบหัวหน้าต่างเป็นของตัวเอง "
 "ก็จะแนบติดไปกับแถบหัวหน้าต่างของหน้าต่างแม่ และจะเคลื่อนไปพร้อมกับหน้าต่างแม่ด้วย"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:5
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:5
 msgid "Enable edge tiling when dropping windows on screen edges"
 msgstr "เปิดใช้การปูหน้าต่างชิดขอบเมื่อวางหน้าต่างที่ขอบหน้าจอ"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:6
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:6
 msgid ""
 "If enabled, dropping windows on vertical screen edges maximizes them "
 "vertically and resizes them horizontally to cover half of the available "
@@ -310,24 +310,24 @@ msgstr ""
 "และปรับขนาดให้วางปิดครึ่งหนึ่งของหน้าจอในแนวนอน "
 "และการวางหน้าต่างที่ขอบหน้าจอด้านบนจะขยายแผ่หน้าต่างเต็มที่"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:7
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:7
 msgid "Workspaces are managed dynamically"
 msgstr "จัดการพื้นที่ทำงานตามการใช้งานจริง"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:8
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:8
 msgid ""
 "Determines whether workspaces are managed dynamically or whether there's a "
 "static number of workspaces (determined by the num-workspaces key in org."
 "gnome.desktop.wm.preferences)."
 msgstr ""
 "กำหนดว่าจะจัดการพื้นที่ทำงานแบบปรับเปลี่ยนตามการใช้งานจริง หรือจะให้มีจำนวนพื้นที่ทำงานตายตัว "
-"(กำหนดโดยคีย์ num-workspaces ใน org.gnome.desktop.wm.preferences)"
+"(กำหนดโดยคีย์ num-workspaces ใน io.github.scarecrow_de.desktop.wm.preferences)"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:9
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:9
 msgid "Workspaces only on primary"
 msgstr "พื้นที่ทำงานอยู่บนจอภาพหลักเท่านั้น"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:10
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:10
 msgid ""
 "Determines whether workspace switching should happen for windows on all "
 "monitors or only for windows on the primary monitor."
@@ -335,21 +335,21 @@ msgstr ""
 "กำหนดว่าการสลับพื้นที่ทำงานควรเกิดเฉพาะกับหน้าต่างบนจอภาพทั้งหมด "
 "หรือเฉพาะหน้าต่างบนจอภาพหลักเท่านั้น"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:11
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:11
 msgid "No tab popup"
 msgstr "ไม่ใช้กล่องผุดขึ้นของปุ่มแท็บ"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:12
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:12
 msgid ""
 "Determines whether the use of popup and highlight frame should be disabled "
 "for window cycling."
 msgstr "กำหนดว่าจะปิดการใช้กล่องผุดขึ้นและการเน้นกรอบหน้าต่างสำหรับการสลับหน้าต่างหรือไม่"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:13
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:13
 msgid "Delay focus changes until the pointer stops moving"
 msgstr "ชะลอการย้ายโฟกัสจนกว่าเคอร์เซอร์เมาส์จะหยุดเคลื่อน"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:14
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:14
 msgid ""
 "If set to true, and the focus mode is either \"sloppy\" or \"mouse\" then "
 "the focus will not be changed immediately when entering a window, but only "
@@ -358,11 +358,11 @@ msgstr ""
 "ถ้ามีค่าเป็นจริง และโหมดโฟกัสเป็น \"sloppy\" หรือ \"mouse\" อย่างใดอย่างหนึ่งแล้ว "
 "ก็จะไม่ย้ายโฟกัสหน้าต่างทันทีทันใดเมื่อเข้าสู่หน้าต่าง จนกว่าเคอร์เซอร์เมาส์จะหยุดเคลื่อนที่"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:15
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:15
 msgid "Draggable border width"
 msgstr "ความกว้างของขอบหน้าต่างส่วนที่ลากได้"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:16
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:16
 msgid ""
 "The amount of total draggable borders. If the theme's visible borders are "
 "not enough, invisible borders will be added to meet this value."
@@ -370,79 +370,79 @@ msgstr ""
 "ขนาดของขอบหน้าต่างส่วนที่ลากได้ ถ้าขอบหน้าต่างส่วนที่ปรากฏของชุดตกแต่งกว้างไม่พอ "
 "ก็จะเพิ่มขอบส่วนที่มองไม่เห็นเพื่อให้ได้เท่ากับความกว้างนี้"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:17
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:17
 msgid "Auto maximize nearly monitor sized windows"
 msgstr "ขยายแผ่หน้าต่างที่มีขนาดใกล้เคียงกับจอภาพโดยอัตโนมัติ"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:18
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:18
 msgid ""
 "If enabled, new windows that are initially the size of the monitor "
 "automatically get maximized."
 msgstr "ถ้าเปิดใช้ หน้าต่างใหม่ที่มีขนาดเริ่มแรกเท่ากับจอภาพจะขยายแผ่โดยอัตโนมัติ"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:19
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:19
 msgid "Place new windows in the center"
 msgstr "วางหน้าต่างใหม่กลางหน้าจอ"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:20
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:20
 msgid ""
 "When true, the new windows will always be put in the center of the active "
 "screen of the monitor."
 msgstr "ถ้าเป็นจริง จะวางหน้าต่างใหม่ที่กลางหน้าจอที่จอภาพแสดงอยู่เสมอ"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:21
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:21
 msgid "Select window from tab popup"
 msgstr "เลือกหน้าต่างจากกล่องผุดขึ้นของปุ่มแท็บ"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:22
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:22
 msgid "Cancel tab popup"
 msgstr "ยกเลิกกล่องผุดขึ้นของปุ่มแท็บ"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:1
+#: ../data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in.h:1
 msgid "Switch to VT 1"
 msgstr "สลับไป VT 1"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:2
+#: ../data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in.h:2
 msgid "Switch to VT 2"
 msgstr "สลับไป VT 2"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:3
+#: ../data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in.h:3
 msgid "Switch to VT 3"
 msgstr "สลับไป VT 3"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:4
+#: ../data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in.h:4
 msgid "Switch to VT 4"
 msgstr "สลับไป VT 4"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:5
+#: ../data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in.h:5
 msgid "Switch to VT 5"
 msgstr "สลับไป VT 5"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:6
+#: ../data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in.h:6
 msgid "Switch to VT 6"
 msgstr "สลับไป VT 6"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:7
+#: ../data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in.h:7
 msgid "Switch to VT 7"
 msgstr "สลับไป VT 7"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:8
+#: ../data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in.h:8
 msgid "Switch to VT 8"
 msgstr "สลับไป VT 8"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:9
+#: ../data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in.h:9
 msgid "Switch to VT 9"
 msgstr "สลับไป VT 9"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:10
+#: ../data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in.h:10
 msgid "Switch to VT 10"
 msgstr "สลับไป VT 10"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:11
+#: ../data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in.h:11
 msgid "Switch to VT 11"
 msgstr "สลับไป VT 11"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:12
+#: ../data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in.h:12
 msgid "Switch to VT 12"
 msgstr "สลับไป VT 12"
 

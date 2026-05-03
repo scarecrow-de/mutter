@@ -250,11 +250,11 @@ msgstr "Jobb oldali felosztás megjelenítése"
 msgid "Mutter"
 msgstr "Mutter"
 
-#: data/org.gnome.mutter.gschema.xml.in:7
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:7
 msgid "Modifier to use for extended window management operations"
 msgstr "A kiterjesztett ablakkezelési műveletekhez használandó módosító"
 
-#: data/org.gnome.mutter.gschema.xml.in:8
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:8
 msgid ""
 "This key will initiate the “overlay”, which is a combination window overview "
 "and application launching system. The default is intended to be the “Windows "
@@ -265,11 +265,11 @@ msgstr ""
 "alkalmazásindító rendszer. Az alapértelmezés a „Windows” billentyű PC "
 "hardver esetén. Ezt vagy az alapértelmezetten, vagy üresen kell hagyni."
 
-#: data/org.gnome.mutter.gschema.xml.in:20
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:20
 msgid "Attach modal dialogs"
 msgstr "Kizárólagos párbeszédablakok csatolása"
 
-#: data/org.gnome.mutter.gschema.xml.in:21
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:21
 msgid ""
 "When true, instead of having independent titlebars, modal dialogs appear "
 "attached to the titlebar of the parent window and are moved together with "
@@ -279,11 +279,11 @@ msgstr ""
 "hanem a szülőablak címsorához csatolva jelennek meg, és a szülőablakkal "
 "együtt kerülnek mozgatásra."
 
-#: data/org.gnome.mutter.gschema.xml.in:30
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:30
 msgid "Enable edge tiling when dropping windows on screen edges"
 msgstr "Szélek csempézésének engedélyezése ablakok képernyőszélekre ejtésekor"
 
-#: data/org.gnome.mutter.gschema.xml.in:31
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:31
 msgid ""
 "If enabled, dropping windows on vertical screen edges maximizes them "
 "vertically and resizes them horizontally to cover half of the available "
@@ -294,24 +294,24 @@ msgstr ""
 "felét fogják elfoglalni. Az ablakok felső képernyőszélre ejtése teljesen "
 "maximalizálja azokat."
 
-#: data/org.gnome.mutter.gschema.xml.in:40
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:40
 msgid "Workspaces are managed dynamically"
 msgstr "Munkaterületek dinamikus kezelése"
 
-#: data/org.gnome.mutter.gschema.xml.in:41
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:41
 msgid ""
 "Determines whether workspaces are managed dynamically or whether there’s a "
 "static number of workspaces (determined by the num-workspaces key in org."
 "gnome.desktop.wm.preferences)."
 msgstr ""
 "A munkaterületek dinamikusan vannak-e kezelve, vagy a számuk rögzített (ezt "
-"a num-workspaces kulcs adja meg az org.gnome.desktop.wm.preferences fájlban)."
+"a num-workspaces kulcs adja meg az io.github.scarecrow_de.desktop.wm.preferences fájlban)."
 
-#: data/org.gnome.mutter.gschema.xml.in:50
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:50
 msgid "Workspaces only on primary"
 msgstr "Munkaterületek csak az elsődlegesen"
 
-#: data/org.gnome.mutter.gschema.xml.in:51
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:51
 msgid ""
 "Determines whether workspace switching should happen for windows on all "
 "monitors or only for windows on the primary monitor."
@@ -319,11 +319,11 @@ msgstr ""
 "A munkaterület-váltás minden monitor ablakaihoz, vagy csak az elsődleges "
 "monitor ablakaihoz történjen meg."
 
-#: data/org.gnome.mutter.gschema.xml.in:59
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:59
 msgid "No tab popup"
 msgstr "Nincs tab felugró"
 
-#: data/org.gnome.mutter.gschema.xml.in:60
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:60
 msgid ""
 "Determines whether the use of popup and highlight frame should be disabled "
 "for window cycling."
@@ -331,11 +331,11 @@ msgstr ""
 "Megadja, hogy a felugró ablak és a kiemelő keret letiltandó-e az ablakok "
 "közti lépkedéskor."
 
-#: data/org.gnome.mutter.gschema.xml.in:68
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:68
 msgid "Delay focus changes until the pointer stops moving"
 msgstr "Fókuszváltozások késleltetése a mutató mozgásának megállásáig"
 
-#: data/org.gnome.mutter.gschema.xml.in:69
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:69
 msgid ""
 "If set to true, and the focus mode is either “sloppy” or “mouse” then the "
 "focus will not be changed immediately when entering a window, but only after "
@@ -345,11 +345,11 @@ msgstr ""
 "fókusz nem változik meg azonnal egy ablakra mutatáskor, hanem csak a mutató "
 "megállása után."
 
-#: data/org.gnome.mutter.gschema.xml.in:79
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:79
 msgid "Draggable border width"
 msgstr "Húzható szegély szélessége"
 
-#: data/org.gnome.mutter.gschema.xml.in:80
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:80
 msgid ""
 "The amount of total draggable borders. If the theme’s visible borders are "
 "not enough, invisible borders will be added to meet this value."
@@ -358,11 +358,11 @@ msgstr ""
 "elegendők, akkor láthatatlan szegélyek kerülnek hozzáadásra ezen érték "
 "eléréséhez."
 
-#: data/org.gnome.mutter.gschema.xml.in:89
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:89
 msgid "Auto maximize nearly monitor sized windows"
 msgstr "Közel monitorméretű ablakok automatikus maximalizálása"
 
-#: data/org.gnome.mutter.gschema.xml.in:90
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:90
 msgid ""
 "If enabled, new windows that are initially the size of the monitor "
 "automatically get maximized."
@@ -370,11 +370,11 @@ msgstr ""
 "Ha engedélyezve van, akkor a monitor méretével egyező méretű új ablakok "
 "automatikusan maximalizálva lesznek."
 
-#: data/org.gnome.mutter.gschema.xml.in:98
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:98
 msgid "Place new windows in the center"
 msgstr "Az új ablakok középre helyezése"
 
-#: data/org.gnome.mutter.gschema.xml.in:99
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:99
 msgid ""
 "When true, the new windows will always be put in the center of the active "
 "screen of the monitor."
@@ -382,11 +382,11 @@ msgstr ""
 "Ha igaz, az új ablakok mindig a monitor aktív képernyőjének közepére lesznek "
 "helyezve."
 
-#: data/org.gnome.mutter.gschema.xml.in:107
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:107
 msgid "Enable experimental features"
 msgstr "Kísérleti funkciók engedélyezése"
 
-#: data/org.gnome.mutter.gschema.xml.in:108
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:108
 msgid ""
 "To enable experimental features, add the feature keyword to the list. "
 "Whether the feature requires restarting the compositor depends on the given "
@@ -415,19 +415,19 @@ msgstr ""
 "előkészíti az Xwayland kiszolgálót lustán, ha vannak X11 kliensek. "
 "Újraindítást igényel."
 
-#: data/org.gnome.mutter.gschema.xml.in:134
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:134
 msgid "Modifier to use to locate the pointer"
 msgstr "Használandó módosító a mutató elhelyezéséhez"
 
-#: data/org.gnome.mutter.gschema.xml.in:135
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:135
 msgid "This key will initiate the “locate pointer” action."
 msgstr "Ez a kulcs el fogja indítani a „mutató elhelyezése” műveletet."
 
-#: data/org.gnome.mutter.gschema.xml.in:142
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:142
 msgid "Timeout for check-alive ping"
 msgstr "Elérhetőség-ellenőrzés pingelésének időkorlátja"
 
-#: data/org.gnome.mutter.gschema.xml.in:143
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:143
 msgid ""
 "Number of milliseconds a client has to respond to a ping request in order to "
 "not be detected as frozen. Using 0 will disable the alive check completely."
@@ -436,81 +436,81 @@ msgstr ""
 "kérésre, hogy ne lefagyottként legyen azonosítva. A 0 használata teljesen "
 "letiltja annak ellenőrzését, hogy életben van-e."
 
-#: data/org.gnome.mutter.gschema.xml.in:165
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:165
 msgid "Select window from tab popup"
 msgstr "Ablakok kiválasztása tab billentyűre felugró ablakból"
 
-#: data/org.gnome.mutter.gschema.xml.in:170
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:170
 msgid "Cancel tab popup"
 msgstr "Tab felugró kikapcsolása"
 
-#: data/org.gnome.mutter.gschema.xml.in:175
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:175
 msgid "Switch monitor configurations"
 msgstr "Monitorkonfiguráció átváltása"
 
-#: data/org.gnome.mutter.gschema.xml.in:180
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:180
 msgid "Rotates the built-in monitor configuration"
 msgstr "Cserélgeti a beépített monitorkonfigurációkat"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:12
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:12
 msgid "Switch to VT 1"
 msgstr "Váltás az 1. VT-re"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:16
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:16
 msgid "Switch to VT 2"
 msgstr "Váltás a 2. VT-re"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:20
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:20
 msgid "Switch to VT 3"
 msgstr "Váltás a 3. VT-re"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:24
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:24
 msgid "Switch to VT 4"
 msgstr "Váltás a 4. VT-re"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:28
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:28
 msgid "Switch to VT 5"
 msgstr "Váltás az 5. VT-re"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:32
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:32
 msgid "Switch to VT 6"
 msgstr "Váltás a 6. VT-re"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:36
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:36
 msgid "Switch to VT 7"
 msgstr "Váltás a 7. VT-re"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:40
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:40
 msgid "Switch to VT 8"
 msgstr "Váltás a 8. VT-re"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:44
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:44
 msgid "Switch to VT 9"
 msgstr "Váltás a 9. VT-re"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:48
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:48
 msgid "Switch to VT 10"
 msgstr "Váltás a 10. VT-re"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:52
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:52
 msgid "Switch to VT 11"
 msgstr "Váltás a 11. VT-re"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:56
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:56
 msgid "Switch to VT 12"
 msgstr "Váltás a 12. VT-re"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:60
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:60
 msgid "Re-enable shortcuts"
 msgstr "Gyorsbillentyűk újraengedélyezése"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:70
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:70
 msgid "Allow X11 grabs to lock keyboard focus with Xwayland"
 msgstr ""
 "X11 megragadások lehetővé tétele a billentyűzetfókusz zárolásához az "
 "Xwayland használatával"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:71
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:71
 #| msgid ""
 #| "Allow all keyboard events to be routed to X11 “override redirect” windows "
 #| "with a grab when running in Xwayland. This option is to support X11 "
@@ -545,11 +545,11 @@ msgstr ""
 "ClientMessage üzenetet a gyökérablaknak, vagy az „xwayland-grab-access-"
 "rules” kulcsban engedélyezettek között kell szerepelnie."
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:90
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:90
 msgid "Xwayland applications allowed to issue keyboard grabs"
 msgstr "Xwayland alkalmazások, amelyek kérhetnek billentyűzet megragadást"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:91
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:91
 #| msgid ""
 #| "List the resource names or resource class of X11 windows either allowed "
 #| "or not allowed to issue X11 keyboard grabs under Xwayland. The resource "
@@ -584,11 +584,11 @@ msgstr ""
 "A felhasználók megszakíthatják a létező megragadásokat a „restore-shortcuts” "
 "kulcsban megadott gyorsbillentyűvel."
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:116
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:116
 msgid "Disable selected X extensions in Xwayland"
 msgstr "A kiválasztott X kiterjesztések letiltása Xwaylandben"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:117
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:117
 msgid ""
 "This option disables the selected X extensions in Xwayland if Xwayland was "
 "built with support for those X extensions. This option has no effect if "

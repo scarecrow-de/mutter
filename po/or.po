@@ -281,11 +281,11 @@ msgstr "ଡ଼ାହାଣ ପାଖରେ ବିଭାଜନକୁ ଦେଖନ
 msgid "Mutter"
 msgstr "Mutter"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:1
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:1
 msgid "Modifier to use for extended window management operations"
 msgstr "ବିସ୍ତାରିତ ୱିଣ୍ଡୋ ପରିଚାଳନା କାର୍ଯ୍ଯଗୁଡ଼ିକ ପାଇଁ ରୂପାନ୍ତରକ"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:2
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:2
 msgid ""
 "This key will initiate the \"overlay\", which is a combination window "
 "overview and application launching system. The default is intended to be the "
@@ -298,11 +298,11 @@ msgstr ""
 "ଉଦ୍ଦିଷ୍ଟ। ଏହା "
 "ଆଶାକରାଯାଇଥାଏ ଯେ ଏହି ମିଶ୍ରଣଟି ହୁଏତଃ ପୂର୍ବନିର୍ଦ୍ଧାରିତ ଅଥବା ଖାଲି ବାକ୍ୟଖଣ୍ଡ ଅଟେ।"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:3
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:3
 msgid "Attach modal dialogs"
 msgstr "କ୍ରିୟାତ୍ମକ ସଂଳାପଗୁଡ଼ିକୁ ଲଗାନ୍ତୁ"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:4
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:4
 msgid ""
 "When true, instead of having independent titlebars, modal dialogs appear "
 "attached to the titlebar of the parent window and are moved together with "
@@ -312,11 +312,11 @@ msgstr ""
 "ମୂଖ୍ୟ ୱିଣ୍ଡୋର ଶୀର୍ଷକ "
 "ପଟି ସହିତ ସଂଲଗ୍ନ ଥିବା ପରି ଲାଗିଥାଏ ଏବଂ ମୂଖ୍ୟ ୱିଣ୍ଡୋ ସହିତ ଗତି କରିଥାଏ।"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:5
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:5
 msgid "Enable edge tiling when dropping windows on screen edges"
 msgstr "ୱିଣ୍ଡୋଗୁଡ଼ିକୁ ପରଦା ଧାରରେ ରଖିବା ସମୟରେ ଧାର ଟାଇଲକୁ ସକ୍ରିୟ କରନ୍ତୁ"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:6
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:6
 msgid ""
 "If enabled, dropping windows on vertical screen edges maximizes them "
 "vertically and resizes them horizontally to cover half of the available "
@@ -329,11 +329,11 @@ msgstr ""
 "ୱିଣ୍ଡୋଗୁଡ଼ିକୁ ପରଦାର ଉପର ସୀମାରେ ରଖିବା ଫଳରେ ତାହା ସମ୍ପୂର୍ଣ୍ଣ ଭାବରେ ଆକାର ବୃଦ୍ଧି "
 "କରିଥାଏ।"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:7
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:7
 msgid "Workspaces are managed dynamically"
 msgstr "କାର୍ଯ୍ୟକ୍ଷେତ୍ରଗୁଡ଼ିକ ଅସ୍ଥାୟୀ ଭାବରେ ପରିଚାଳିତ ହୋଇଥାଏ"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:8
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:8
 msgid ""
 "Determines whether workspaces are managed dynamically or whether there's a "
 "static number of workspaces (determined by the num-workspaces key in org."
@@ -341,14 +341,14 @@ msgid ""
 msgstr ""
 "କାର୍ଯ୍ୟକ୍ଷେତ୍ରଗୁଡ଼ିକ ଅସ୍ଥାୟୀ ଭାବରେ ପରିଚାଳିତ ହୋଇଥାଏ କି  ସେଠାରେ ସ୍ଥାୟୀ ସଂଖ୍ୟକ "
 "କାର୍ଯ୍ୟକ୍ଷେତ୍ର "
-"ଥାଏ ତାହା ନିର୍ଦ୍ଧାରଣ କରିଥାଏ (org.gnome.desktop.wm.preferences ଦ୍ୱାରା num-"
+"ଥାଏ ତାହା ନିର୍ଦ୍ଧାରଣ କରିଥାଏ (io.github.scarecrow_de.desktop.wm.preferences ଦ୍ୱାରା num-"
 "workspaces କି ଦ୍ୱାରା ନିର୍ଦ୍ଧାରିତ ହୋଇଥାଏ)।"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:9
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:9
 msgid "Workspaces only on primary"
 msgstr "କାର୍ଯ୍ୟକ୍ଷେତ୍ର କେବଳ ପ୍ରାଥମିକ ସ୍ଥାନରେ ଥାଏ"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:10
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:10
 msgid ""
 "Determines whether workspace switching should happen for windows on all "
 "monitors or only for windows on the primary monitor."
@@ -357,11 +357,11 @@ msgstr ""
 "ତାହା ନିର୍ଦ୍ଧାରଣ "
 "କରିଥାଏ।"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:11
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:11
 msgid "No tab popup"
 msgstr "କୌଣସି ଟ୍ୟାବ ପପଅପ ନାହିଁ"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:12
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:12
 msgid ""
 "Determines whether the use of popup and highlight frame should be disabled "
 "for window cycling."
@@ -370,12 +370,12 @@ msgstr ""
 "ନୁହଁ ତାହା ନିର୍ଦ୍ଧାରଣ "
 "କରିଥାଏ।"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:13
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:13
 msgid "Delay focus changes until the pointer stops moving"
 msgstr ""
 "ସୂଚକ ଗତି କରିବା ବନ୍ଦ ନହେଲା ପର୍ଯ୍ୟନ୍ତ ଲକ୍ଷ୍ଯସ୍ଥଳ ପରିବର୍ତ୍ତନକୁ ବିଳମ୍ବ କରନ୍ତୁ"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:14
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:14
 msgid ""
 "If set to true, and the focus mode is either \"sloppy\" or \"mouse\" then "
 "the focus will not be changed immediately when entering a window, but only "
@@ -387,11 +387,11 @@ msgstr ""
 "କରିବା ବନ୍ଦ  ହେଲେ "
 "ସାମନାକୁ ଅଣାଯିବ।"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:15
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:15
 msgid "Draggable border width"
 msgstr "ଟଣାଯୋଗ୍ୟ ସୀମା ଓସାର"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:16
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:16
 msgid ""
 "The amount of total draggable borders. If the theme's visible borders are "
 "not enough, invisible borders will be added to meet this value."
@@ -400,11 +400,11 @@ msgstr ""
 "ଅଦୃଶ୍ୟ ସୀମାଗୁଡ଼ିକୁ "
 "ମୂଲ୍ୟାଙ୍କନ ପାଇଁ ଯୋଗ କରାଯିବ।"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:17
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:17
 msgid "Auto maximize nearly monitor sized windows"
 msgstr "ସ୍ୱୟଂଚାଳିତ ଭାବରେ ମନିଟର ଆକାରର ୱିଣ୍ଡୋ ବର୍ଦ୍ଧନ କରନ୍ତୁ"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:18
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:18
 msgid ""
 "If enabled, new windows that are initially the size of the monitor "
 "automatically get maximized."
@@ -412,56 +412,56 @@ msgstr ""
 "ଯଦି ସକ୍ରିୟ କରାଯାଏ, ନୂତନ ୱିଣ୍ଡୋଗୁଡ଼ିକ ଯାହାକି ପ୍ରଥମେ ମନିଟର ଆକାର ସ୍ୱୟଂଚାଳିତ "
 "ଭାବରେ ବଢ଼ିଥାଏ।"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:19
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:19
 msgid "Place new windows in the center"
 msgstr "କେନ୍ଦ୍ରରେ ନୂତନ ୱିଣ୍ଡୋଗୁଡ଼ିକୁ ରଖନ୍ତୁ"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:20
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:20
 msgid ""
 "When true, the new windows will always be put in the center of the active "
 "screen of the monitor."
 msgstr ""
 "ଯଦି true, ତେବେ ନୂତନ ୱିଣ୍ଡୋଗୁଡ଼ିକୁ ସର୍ବଦା ମନିଟରର ସକ୍ରିୟ ପରଦାର କେନ୍ଦ୍ରରେ ରଖାଯିବ।"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:21
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:21
 msgid "Select window from tab popup"
 msgstr "ଟ୍ୟାବ ପପଅପରୁ ୱିଣ୍ଡୋକୁ ବାଛନ୍ତୁ"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:22
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:22
 msgid "Cancel tab popup"
 msgstr "ଟ୍ୟାବ ପପଅପକୁ ବାତିଲ କରନ୍ତୁ"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:1
+#: ../data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in.h:1
 #| msgid "Switch to workspace 1"
 msgid "Switch to VT 1"
 msgstr "VT 1 କୁ ବଦଳାନ୍ତୁ"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:2
+#: ../data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in.h:2
 #| msgid "Switch to workspace 2"
 msgid "Switch to VT 2"
 msgstr "VT 2 କୁ ବଦଳାନ୍ତୁ"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:3
+#: ../data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in.h:3
 #| msgid "Switch to workspace 3"
 msgid "Switch to VT 3"
 msgstr "VT 3 କୁ ବଦଳାନ୍ତୁ"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:4
+#: ../data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in.h:4
 #| msgid "Switch to workspace 4"
 msgid "Switch to VT 4"
 msgstr "VT 4 କୁ ବଦଳାନ୍ତୁ"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:5
+#: ../data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in.h:5
 #| msgid "Switch to workspace 5"
 msgid "Switch to VT 5"
 msgstr "VT 5 କୁ ବଦଳାନ୍ତୁ"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:6
+#: ../data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in.h:6
 #| msgid "Switch to workspace 6"
 msgid "Switch to VT 6"
 msgstr "VT 6 କୁ ବଦଳାନ୍ତୁ"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:7
+#: ../data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in.h:7
 #| msgid "Switch to workspace 7"
 msgid "Switch to VT 7"
 msgstr "VT 7 କୁ ବଦଳାନ୍ତୁ"

@@ -249,11 +249,11 @@ msgstr "檢視分割於右側"
 msgid "Mutter"
 msgstr "Mutter"
 
-#: data/org.gnome.mutter.gschema.xml.in:7
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:7
 msgid "Modifier to use for extended window management operations"
 msgstr "用於延伸視窗管理操作程序的特殊按鍵"
 
-#: data/org.gnome.mutter.gschema.xml.in:8
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:8
 msgid ""
 "This key will initiate the “overlay”, which is a combination window overview "
 "and application launching system. The default is intended to be the “Windows "
@@ -264,11 +264,11 @@ msgstr ""
 "要成為 PC 硬體上的「Windows key」。預期這個按鍵組含不是預設值就是設定為空字"
 "串。"
 
-#: data/org.gnome.mutter.gschema.xml.in:20
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:20
 msgid "Attach modal dialogs"
 msgstr "附加模態對話盒"
 
-#: data/org.gnome.mutter.gschema.xml.in:21
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:21
 msgid ""
 "When true, instead of having independent titlebars, modal dialogs appear "
 "attached to the titlebar of the parent window and are moved together with "
@@ -277,11 +277,11 @@ msgstr ""
 "當設為「true」，將不會有獨立的標題列，模態對話盒會附加在上層視窗的標題列並與"
 "上層視窗一起移動。"
 
-#: data/org.gnome.mutter.gschema.xml.in:30
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:30
 msgid "Enable edge tiling when dropping windows on screen edges"
 msgstr "在螢幕邊緣放下視窗時啟用邊緣拼貼"
 
-#: data/org.gnome.mutter.gschema.xml.in:31
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:31
 msgid ""
 "If enabled, dropping windows on vertical screen edges maximizes them "
 "vertically and resizes them horizontally to cover half of the available "
@@ -290,44 +290,44 @@ msgstr ""
 "如果啟用，將視窗拖放到螢幕垂直邊緣時會讓它們垂直最大化並調整水平方向大小覆蓋"
 "可用區域的一半。拖放視窗到螢幕頂端邊緣則會讓它們完全最大化。"
 
-#: data/org.gnome.mutter.gschema.xml.in:40
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:40
 msgid "Workspaces are managed dynamically"
 msgstr "工作區以動態方式管理"
 
-#: data/org.gnome.mutter.gschema.xml.in:41
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:41
 msgid ""
 "Determines whether workspaces are managed dynamically or whether there’s a "
 "static number of workspaces (determined by the num-workspaces key in org."
 "gnome.desktop.wm.preferences)."
 msgstr ""
-"決定工作區以動態方式管理或是有固定數量的工作區 (以 org.gnome.desktop.wm."
+"決定工作區以動態方式管理或是有固定數量的工作區 (以 io.github.scarecrow_de.desktop.wm."
 "preferences 中的 num-workspaces 鍵值來決定)。"
 
-#: data/org.gnome.mutter.gschema.xml.in:50
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:50
 msgid "Workspaces only on primary"
 msgstr "只有主要螢幕的工作區"
 
-#: data/org.gnome.mutter.gschema.xml.in:51
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:51
 msgid ""
 "Determines whether workspace switching should happen for windows on all "
 "monitors or only for windows on the primary monitor."
 msgstr "決定工作區切換是否使用於所有螢幕的視窗或只用於主要螢幕的視窗。"
 
-#: data/org.gnome.mutter.gschema.xml.in:59
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:59
 msgid "No tab popup"
 msgstr "沒有分頁彈出項"
 
-#: data/org.gnome.mutter.gschema.xml.in:60
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:60
 msgid ""
 "Determines whether the use of popup and highlight frame should be disabled "
 "for window cycling."
 msgstr "決定當視窗輪換時是否使用彈出式和強調框架。"
 
-#: data/org.gnome.mutter.gschema.xml.in:68
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:68
 msgid "Delay focus changes until the pointer stops moving"
 msgstr "延遲焦點的改變直到指標停止移動"
 
-#: data/org.gnome.mutter.gschema.xml.in:69
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:69
 msgid ""
 "If set to true, and the focus mode is either “sloppy” or “mouse” then the "
 "focus will not be changed immediately when entering a window, but only after "
@@ -336,41 +336,41 @@ msgstr ""
 "如果設為 true，焦點模式為「sloppy」或「mouse」，則焦點不會在進入視窗時立即改"
 "變，而是在指標停止移動之後才改變。"
 
-#: data/org.gnome.mutter.gschema.xml.in:79
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:79
 msgid "Draggable border width"
 msgstr "可拖曳邊框寬度"
 
-#: data/org.gnome.mutter.gschema.xml.in:80
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:80
 msgid ""
 "The amount of total draggable borders. If the theme’s visible borders are "
 "not enough, invisible borders will be added to meet this value."
 msgstr "所有可拖曳邊框的總數。如果布景的可視邊框不夠，會加入隱形邊框來符合這個數值。"
 
-#: data/org.gnome.mutter.gschema.xml.in:89
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:89
 msgid "Auto maximize nearly monitor sized windows"
 msgstr "自動最大化接近螢幕大小的視窗"
 
-#: data/org.gnome.mutter.gschema.xml.in:90
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:90
 msgid ""
 "If enabled, new windows that are initially the size of the monitor "
 "automatically get maximized."
 msgstr "如果啟用，初始大小為螢幕大小的新視窗會自動最大化。"
 
-#: data/org.gnome.mutter.gschema.xml.in:98
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:98
 msgid "Place new windows in the center"
 msgstr "將新視窗放置於中央"
 
-#: data/org.gnome.mutter.gschema.xml.in:99
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:99
 msgid ""
 "When true, the new windows will always be put in the center of the active "
 "screen of the monitor."
 msgstr "當設定為「true」時，新視窗會永遠置於使用中螢幕畫面的正中央。"
 
-#: data/org.gnome.mutter.gschema.xml.in:107
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:107
 msgid "Enable experimental features"
 msgstr "啟用試驗性功能"
 
-#: data/org.gnome.mutter.gschema.xml.in:108
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:108
 #| msgid ""
 #| "To enable experimental features, add the feature keyword to the list. "
 #| "Whether the feature requires restarting the compositor depends on the "
@@ -403,88 +403,88 @@ msgstr ""
 "CAP_SYS_NICE。需要重新啟動。"
 "• 「autostart-xwayland」— 如果有 X11 用戶端就延遲初始化 Xwayland。需要重新啟動。"
 
-#: data/org.gnome.mutter.gschema.xml.in:134
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:134
 msgid "Modifier to use to locate the pointer"
 msgstr "要用來定位指標的輔助鍵"
 
-#: data/org.gnome.mutter.gschema.xml.in:135
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:135
 msgid "This key will initiate the “locate pointer” action."
 msgstr "這個按鍵將會「定位指標」。"
 
-#: data/org.gnome.mutter.gschema.xml.in:155
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:155
 msgid "Select window from tab popup"
 msgstr "從分頁彈出項選擇視窗"
 
-#: data/org.gnome.mutter.gschema.xml.in:160
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:160
 msgid "Cancel tab popup"
 msgstr "取消分頁彈出項"
 
-#: data/org.gnome.mutter.gschema.xml.in:165
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:165
 msgid "Switch monitor configurations"
 msgstr "切換螢幕組態"
 
-#: data/org.gnome.mutter.gschema.xml.in:170
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:170
 msgid "Rotates the built-in monitor configuration"
 msgstr "旋轉切換內建螢幕組態"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:6
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:6
 msgid "Switch to VT 1"
 msgstr "切換至 VT 1"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:10
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:10
 msgid "Switch to VT 2"
 msgstr "切換至 VT 2"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:14
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:14
 msgid "Switch to VT 3"
 msgstr "切換至 VT 3"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:18
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:18
 msgid "Switch to VT 4"
 msgstr "切換至 VT 4"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:22
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:22
 msgid "Switch to VT 5"
 msgstr "切換至 VT 5"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:26
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:26
 msgid "Switch to VT 6"
 msgstr "切換至 VT 6"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:30
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:30
 msgid "Switch to VT 7"
 msgstr "切換至 VT 7"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:34
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:34
 msgid "Switch to VT 8"
 msgstr "切換至 VT 8"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:38
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:38
 msgid "Switch to VT 9"
 msgstr "切換至 VT 9"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:42
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:42
 msgid "Switch to VT 10"
 msgstr "切換至 VT 10"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:46
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:46
 msgid "Switch to VT 11"
 msgstr "切換至 VT 11"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:50
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:50
 msgid "Switch to VT 12"
 msgstr "切換至 VT 12"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:54
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:54
 msgid "Re-enable shortcuts"
 msgstr "重新啟用快捷鍵"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:64
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:64
 #| msgid "Allow grabs with Xwayland"
 msgid "Allow X11 grabs to lock keyboard focus with Xwayland"
 msgstr "允許 X11 抓取以使用 Xwayland 鎖定鍵盤焦點"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:65
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:65
 #, fuzzy
 #| msgid ""
 #| "Allow keyboard grabs issued by X11 applications running in Xwayland to be "
@@ -507,11 +507,11 @@ msgstr ""
 "的 X11 抓取，客戶端也必須送出一個特定的 X11 ClientMessage 到 root 視窗或者在 "
 "xwayland-grab-access-rules 鍵白名單其中的應用程式"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:84
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:84
 msgid "Xwayland applications allowed to issue keyboard grabs"
 msgstr "Xwayland 應用程式允許發出鍵盤抓取"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:85
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:85
 msgid ""
 "List the resource names or resource class of X11 windows either allowed or "
 "not allowed to issue X11 keyboard grabs under Xwayland. The resource name or "

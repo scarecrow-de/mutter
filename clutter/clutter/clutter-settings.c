@@ -284,7 +284,7 @@ static void
 get_font_gsettings (GSettings    *xsettings,
                     FontSettings *output)
 {
-  /* org.gnome.settings-daemon.GsdFontAntialiasingMode */
+  /* io.github.scarecrow_de.settings-daemon.GsdFontAntialiasingMode */
   static const struct
   {
     cairo_antialias_t cairo_antialias;
@@ -297,7 +297,7 @@ get_font_gsettings (GSettings    *xsettings,
     /* rgba=2      */ {CAIRO_ANTIALIAS_SUBPIXEL, 1},
   };
 
-  /* org.gnome.settings-daemon.GsdFontHinting */
+  /* io.github.scarecrow_de.settings-daemon.GsdFontHinting */
   static const struct
   {
     cairo_hint_style_t cairo_hint_style;
@@ -311,7 +311,7 @@ get_font_gsettings (GSettings    *xsettings,
     /* full=3   */ {CAIRO_HINT_STYLE_FULL,   "hintfull"},
   };
 
-  /* org.gnome.settings-daemon.GsdFontRgbaOrder */
+  /* io.github.scarecrow_de.settings-daemon.GsdFontRgbaOrder */
   static const struct
   {
     cairo_subpixel_order_t cairo_subpixel_order;
@@ -411,7 +411,7 @@ static void
 load_initial_settings (ClutterSettings *self)
 {
   static const gchar xsettings_path[] =
-    "org.gnome.settings-daemon.plugins.xsettings";
+    "io.github.scarecrow_de.settings-daemon.plugins.xsettings";
   GSettingsSchemaSource *source = g_settings_schema_source_get_default ();
   GSettingsSchema *schema;
 

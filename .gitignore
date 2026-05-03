@@ -37,10 +37,10 @@ mutter-test-runner
 mutter-test-unit-tests
 mutter-test-headless-start-test
 mutter-all.test
-org.gnome.mutter.gschema.valid
-org.gnome.mutter.gschema.xml
-org.gnome.mutter.wayland.gschema.valid
-org.gnome.mutter.wayland.gschema.xml
+io.github.scarecrow_de.mutter.gschema.valid
+io.github.scarecrow_de.mutter.gschema.xml
+io.github.scarecrow_de.mutter.wayland.gschema.valid
+io.github.scarecrow_de.mutter.wayland.gschema.xml
 testasyncgetprop
 testboxes
 testgradient

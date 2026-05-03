@@ -252,11 +252,11 @@ msgstr "Izvietot labajā ekrāna pusē"
 msgid "Mutter"
 msgstr "Mutter"
 
-#: data/org.gnome.mutter.gschema.xml.in:7
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:7
 msgid "Modifier to use for extended window management operations"
 msgstr "Modifikators, kuru lietot paplašinātām loga pārvaldības darbībām"
 
-#: data/org.gnome.mutter.gschema.xml.in:8
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:8
 msgid ""
 "This key will initiate the “overlay”, which is a combination window overview "
 "and application launching system. The default is intended to be the “Windows "
@@ -268,11 +268,11 @@ msgstr ""
 "PC aparatūras. Tiek sagaidīts, ka šī sasaite ir vai nu noklusējuma, vai "
 "tukša virkne."
 
-#: data/org.gnome.mutter.gschema.xml.in:20
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:20
 msgid "Attach modal dialogs"
 msgstr "Piesaistīt modālos dialogus"
 
-#: data/org.gnome.mutter.gschema.xml.in:21
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:21
 msgid ""
 "When true, instead of having independent titlebars, modal dialogs appear "
 "attached to the titlebar of the parent window and are moved together with "
@@ -282,11 +282,11 @@ msgstr ""
 "dialogs būs piesaistīts virsraksta joslai vecāka logam un tiks pārvietots "
 "kopā ar vecāka logu."
 
-#: data/org.gnome.mutter.gschema.xml.in:30
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:30
 msgid "Enable edge tiling when dropping windows on screen edges"
 msgstr "Aktivēt logu sānisko izklāšanu, kad to nomet uz ekrāna malas"
 
-#: data/org.gnome.mutter.gschema.xml.in:31
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:31
 msgid ""
 "If enabled, dropping windows on vertical screen edges maximizes them "
 "vertically and resizes them horizontally to cover half of the available "
@@ -296,25 +296,25 @@ msgstr ""
 "izklāti pa visu ekrāna augstumu pusē no pieejamā platuma, bet tie, kas "
 "nomesti uz augšējās malas, tiks izklāti pa visu ekrānu."
 
-#: data/org.gnome.mutter.gschema.xml.in:40
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:40
 msgid "Workspaces are managed dynamically"
 msgstr "Darbvirsmas tiek pārvaldītas dinamiski"
 
-#: data/org.gnome.mutter.gschema.xml.in:41
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:41
 msgid ""
 "Determines whether workspaces are managed dynamically or whether there’s a "
 "static number of workspaces (determined by the num-workspaces key in org."
 "gnome.desktop.wm.preferences)."
 msgstr ""
 "Nosaka, vai darbvirsmas tiek pārvaldītas dinamiski, vai arī ir statisks "
-"darbvirsmu skaits (ko nosaka num-workspaces atslēga laukā org.gnome.desktop."
+"darbvirsmu skaits (ko nosaka num-workspaces atslēga laukā io.github.scarecrow_de.desktop."
 "wm.preferences)."
 
-#: data/org.gnome.mutter.gschema.xml.in:50
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:50
 msgid "Workspaces only on primary"
 msgstr "Darbvietas tikai uz galvenā"
 
-#: data/org.gnome.mutter.gschema.xml.in:51
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:51
 msgid ""
 "Determines whether workspace switching should happen for windows on all "
 "monitors or only for windows on the primary monitor."
@@ -322,11 +322,11 @@ msgstr ""
 "Nosaka, vai darbvietu pārslēgšanai vajadzētu notikt visiem logiem visos "
 "monitoros, vai tikai logiem galvenajā monitorā."
 
-#: data/org.gnome.mutter.gschema.xml.in:59
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:59
 msgid "No tab popup"
 msgstr "Nerādīt logus pārslēgšanās laikā"
 
-#: data/org.gnome.mutter.gschema.xml.in:60
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:60
 msgid ""
 "Determines whether the use of popup and highlight frame should be disabled "
 "for window cycling."
@@ -334,11 +334,11 @@ msgstr ""
 "Nosaka, vai atslēgt uzlecošo izvēlni ar logu attēliem un izvēles rāmi, kad "
 "notiek pārslēgšanās starp logiem ar tabulatora vai tildes taustiņiem."
 
-#: data/org.gnome.mutter.gschema.xml.in:68
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:68
 msgid "Delay focus changes until the pointer stops moving"
 msgstr "Aizkavēt fokusa izmaiņas, līdz rādītājs pārstāj kustēties"
 
-#: data/org.gnome.mutter.gschema.xml.in:69
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:69
 msgid ""
 "If set to true, and the focus mode is either “sloppy” or “mouse” then the "
 "focus will not be changed immediately when entering a window, but only after "
@@ -348,11 +348,11 @@ msgstr ""
 "“mouse” (pele), tad fokuss nemainīsies uzreiz pēc ieiešanas logā, bet tikai "
 "pēc tam, kad rādītājs beidzis kustēties."
 
-#: data/org.gnome.mutter.gschema.xml.in:79
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:79
 msgid "Draggable border width"
 msgstr "Velkams malas platums"
 
-#: data/org.gnome.mutter.gschema.xml.in:80
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:80
 msgid ""
 "The amount of total draggable borders. If the theme’s visible borders are "
 "not enough, invisible borders will be added to meet this value."
@@ -360,11 +360,11 @@ msgstr ""
 "Kopējo velkamo malu apjoms. Ja motīva redzamās robežas nav pietiekamas, tiks "
 "pievienotas neredzamas robežas, lai iegūtu šo vērtību."
 
-#: data/org.gnome.mutter.gschema.xml.in:89
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:89
 msgid "Auto maximize nearly monitor sized windows"
 msgstr "Automātiski maksimizēt logus, kas ir gandrīz ar monitora izmēru"
 
-#: data/org.gnome.mutter.gschema.xml.in:90
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:90
 msgid ""
 "If enabled, new windows that are initially the size of the monitor "
 "automatically get maximized."
@@ -372,22 +372,22 @@ msgstr ""
 "Ja aktivizēts, jauni logi, kuru izmērs ir gandrīz tāds pats, kā monitoram, "
 "tiks maksimizēti."
 
-#: data/org.gnome.mutter.gschema.xml.in:98
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:98
 msgid "Place new windows in the center"
 msgstr "Novietot logu vidū"
 
-#: data/org.gnome.mutter.gschema.xml.in:99
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:99
 msgid ""
 "When true, the new windows will always be put in the center of the active "
 "screen of the monitor."
 msgstr ""
 "Ja patiess, jaunie logi vienmēr tiks novietoti monitora aktīvā ekrāna vidū."
 
-#: data/org.gnome.mutter.gschema.xml.in:107
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:107
 msgid "Enable experimental features"
 msgstr "Ieslēgt eksperimentālās iespējas"
 
-#: data/org.gnome.mutter.gschema.xml.in:108
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:108
 msgid ""
 "To enable experimental features, add the feature keyword to the list. "
 "Whether the feature requires restarting the compositor depends on the given "
@@ -415,19 +415,19 @@ msgstr ""
 "inicializē Xwayland slinki, ja eksistē X11 klienti. Pārstartēšana ir "
 "nepieciešama."
 
-#: data/org.gnome.mutter.gschema.xml.in:134
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:134
 msgid "Modifier to use to locate the pointer"
 msgstr "Modifikators, ko izmantot, lai atrastu rādītāju"
 
-#: data/org.gnome.mutter.gschema.xml.in:135
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:135
 msgid "This key will initiate the “locate pointer” action."
 msgstr "Šī atslēga inicializēs “atrast rādītāju” darbību."
 
-#: data/org.gnome.mutter.gschema.xml.in:142
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:142
 msgid "Timeout for check-alive ping"
 msgstr "Aktivitātes pārbaudes ping noildze"
 
-#: data/org.gnome.mutter.gschema.xml.in:143
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:143
 msgid ""
 "Number of milliseconds a client has to respond to a ping request in order to "
 "not be detected as frozen. Using 0 will disable the alive check completely."
@@ -436,79 +436,79 @@ msgstr ""
 " klientu neuzskatītu par iesalušu. Ja norādītais laiks ir 0, aktivitātes"
 " pārbaude netiks veikta."
 
-#: data/org.gnome.mutter.gschema.xml.in:165
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:165
 msgid "Select window from tab popup"
 msgstr "Izvēlēties logu no tabulatora izvēlnes"
 
-#: data/org.gnome.mutter.gschema.xml.in:170
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:170
 msgid "Cancel tab popup"
 msgstr "Atcelt logu rādīšanu"
 
-#: data/org.gnome.mutter.gschema.xml.in:175
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:175
 msgid "Switch monitor configurations"
 msgstr "Pārslēgt monitoru konfigurācijas"
 
-#: data/org.gnome.mutter.gschema.xml.in:180
+#: data/io.github.scarecrow_de.mutter.gschema.xml.in:180
 msgid "Rotates the built-in monitor configuration"
 msgstr "Pagriež iebūvētā monitora konfigurāciju"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:12
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:12
 msgid "Switch to VT 1"
 msgstr "Pārslēgties uz VT 1"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:16
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:16
 msgid "Switch to VT 2"
 msgstr "Pārslēgties uz VT 2"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:20
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:20
 msgid "Switch to VT 3"
 msgstr "Pārslēgties uz VT 3"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:24
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:24
 msgid "Switch to VT 4"
 msgstr "Pārslēgties uz VT 4"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:28
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:28
 msgid "Switch to VT 5"
 msgstr "Pārslēgties uz VT 5"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:32
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:32
 msgid "Switch to VT 6"
 msgstr "Pārslēgties uz VT 6"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:36
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:36
 msgid "Switch to VT 7"
 msgstr "Pārslēgties uz VT 7"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:40
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:40
 msgid "Switch to VT 8"
 msgstr "Pārslēgties uz VT 8"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:44
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:44
 msgid "Switch to VT 9"
 msgstr "Pārslēgties uz VT 9"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:48
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:48
 msgid "Switch to VT 10"
 msgstr "Pārslēgties uz VT 10"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:52
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:52
 msgid "Switch to VT 11"
 msgstr "Pārslēgties uz VT 11"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:56
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:56
 msgid "Switch to VT 12"
 msgstr "Pārslēgties uz VT 12"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:60
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:60
 msgid "Re-enable shortcuts"
 msgstr "Atkal ieslēdz saīsnes"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:70
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:70
 msgid "Allow X11 grabs to lock keyboard focus with Xwayland"
 msgstr "Atļaut X11 satvērieniem bloķēt tastatūras fokusu ar Xwayland"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:71
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:71
 #| msgid ""
 #| "Allow all keyboard events to be routed to X11 “override redirect” windows "
 #| "with a grab when running in Xwayland. This option is to support X11 "
@@ -540,11 +540,11 @@ msgstr ""
 "X11 ClientMessage uz root (saknes) logu, vai arī jābūt atļauto lietotņu "
 "sarakstā atslēgā “xwayland-grab-access-rules”."
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:90
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:90
 msgid "Xwayland applications allowed to issue keyboard grabs"
 msgstr "Xwayland lietotnes, kuras drīkst pieprasīt tastatūras satveršanu"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:91
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:91
 #| msgid ""
 #| "List the resource names or resource class of X11 windows either allowed "
 #| "or not allowed to issue X11 keyboard grabs under Xwayland. The resource "
@@ -580,11 +580,11 @@ msgstr ""
 "tvērienu, izmantojot noteiktus tastatūras īsinājumtaustiņus, kas ir noteikti "
 "“restore-shortcuts” atslēgā."
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:116
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:116
 msgid "Disable selected X extensions in Xwayland"
 msgstr "Izslēgt izvēlētos X paplašinājumus Xwayland sistēmā"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:117
+#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:117
 msgid ""
 "This option disables the selected X extensions in Xwayland if Xwayland was "
 "built with support for those X extensions. This option has no effect if "

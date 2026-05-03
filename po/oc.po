@@ -264,12 +264,12 @@ msgstr "Vista devesida a dreita"
 msgid "Mutter"
 msgstr "Mutter"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:1
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:1
 msgid "Modifier to use for extended window management operations"
 msgstr ""
 "Tòca d'utilizar per las operacions espandidas de gestion de las fenèstras"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:2
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:2
 msgid ""
 "This key will initiate the \"overlay\", which is a combination window "
 "overview and application launching system. The default is intended to be the "
@@ -281,11 +281,11 @@ msgstr ""
 "material PC es la tòca Windows. En principi, aqueste acorchi es configurat "
 "sul reglatge per defaut o sus la cadena voida."
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:3
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:3
 msgid "Attach modal dialogs"
 msgstr "Estacar las bóstias de dialòg modal"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:4
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:4
 msgid ""
 "When true, instead of having independent titlebars, modal dialogs appear "
 "attached to the titlebar of the parent window and are moved together with "
@@ -295,11 +295,11 @@ msgstr ""
 "dialòg apareisson estacadas a la barra de títol de la fenèstra parenta e son "
 "desplaçadas ensembles amb ela."
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:5
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:5
 msgid "Enable edge tiling when dropping windows on screen edges"
 msgstr "Activar l'empilatge de las fenèstras depausadas suls bòrds de l'ecran"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:6
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:6
 msgid ""
 "If enabled, dropping windows on vertical screen edges maximizes them "
 "vertically and resizes them horizontally to cover half of the available "
@@ -310,11 +310,11 @@ msgstr ""
 "mitat de la zòna disponibla. Lo depaus de las fenèstras sul bòrd superior de "
 "l'ecran las maximiza completament."
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:7
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:7
 msgid "Workspaces are managed dynamically"
 msgstr "Les espacis de trabalh son gerits d'un biais dinamic"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:8
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:8
 msgid ""
 "Determines whether workspaces are managed dynamically or whether there's a "
 "static number of workspaces (determined by the num-workspaces key in org."
@@ -322,13 +322,13 @@ msgid ""
 msgstr ""
 "Determina se los espacis de trabalh son gerits d'un biais dinamica o se lo "
 "nombre d'espacis de trabalh es fixe (determinat per la clau num-workspaces "
-"dins org.gnome.desktop.wm.preferences)."
+"dins io.github.scarecrow_de.desktop.wm.preferences)."
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:9
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:9
 msgid "Workspaces only on primary"
 msgstr "Espacis de trabalh solament sus l'ecran principal"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:10
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:10
 msgid ""
 "Determines whether workspace switching should happen for windows on all "
 "monitors or only for windows on the primary monitor."
@@ -337,11 +337,11 @@ msgstr ""
 "fenèstras de totes los ecrans o solament per las fenèstras de l'ecran "
 "principal."
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:11
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:11
 msgid "No tab popup"
 msgstr "Pas cap d'aparicion en seguida d'una quichada sus la tòca tab"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:12
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:12
 msgid ""
 "Determines whether the use of popup and highlight frame should be disabled "
 "for window cycling."
@@ -349,11 +349,11 @@ msgstr ""
 "Determina se l'utilizacion de fenèstras sorgissentas e de mesa en valor deu "
 "èsser desactivada per la consultacion de las fenèstras."
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:13
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:13
 msgid "Delay focus changes until the pointer stops moving"
 msgstr "Espèra l'arrèst del puntador abans lo cambiament de focus"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:14
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:14
 msgid ""
 "If set to true, and the focus mode is either \"sloppy\" or \"mouse\" then "
 "the focus will not be changed immediately when entering a window, but only "
@@ -363,11 +363,11 @@ msgstr ""
 "alara lo focus serà pas cambiat immediatament en passant sus una fenèstra, "
 "mas solament aprèp que lo puntador s'arrèsta."
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:15
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:15
 msgid "Draggable border width"
 msgstr "Largor de bordadura ajustabla"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:16
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:16
 msgid ""
 "The amount of total draggable borders. If the theme's visible borders are "
 "not enough, invisible borders will be added to meet this value."
@@ -376,13 +376,13 @@ msgstr ""
 "visiblas del tèma son pas sufisentas, de bordaduras invisiblas son apondudas "
 "per arribar a aquesta valor."
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:17
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:17
 msgid "Auto maximize nearly monitor sized windows"
 msgstr ""
 "Maximizar automaticament las fenèstras que la talha n'es pròcha de la de "
 "l'ecran"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:18
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:18
 msgid ""
 "If enabled, new windows that are initially the size of the monitor "
 "automatically get maximized."
@@ -390,11 +390,11 @@ msgstr ""
 "Se activat, las novèlas fenèstras qu'an gaireben la talha de l'ecran a la "
 "dobertura seràn maximizadas automaticament."
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:19
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:19
 msgid "Place new windows in the center"
 msgstr "Plaçar las novèlas fenèstras al centre"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:20
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:20
 msgid ""
 "When true, the new windows will always be put in the center of the active "
 "screen of the monitor."
@@ -402,61 +402,61 @@ msgstr ""
 "Se true (verai), las novèlas fenèstras seràn totjorn plaçadas al centre de "
 "l'ecran actiu del monitor."
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:21
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:21
 msgid "Select window from tab popup"
 msgstr ""
 "Seleccionar la fenèstra dins la vista qu'apareis en seguida d'una quichada "
 "sus la tòca tab"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:22
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:22
 msgid "Cancel tab popup"
 msgstr "Tampar la vista qu'apareis en seguida d'una quichada sus la tòca tab"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:1
+#: ../data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in.h:1
 msgid "Switch to VT 1"
 msgstr "Passar a l'emulator de terminal 1"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:2
+#: ../data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in.h:2
 msgid "Switch to VT 2"
 msgstr "Passar a l'emulator de terminal 2"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:3
+#: ../data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in.h:3
 msgid "Switch to VT 3"
 msgstr "Passar a l'emulator de terminal 3"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:4
+#: ../data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in.h:4
 msgid "Switch to VT 4"
 msgstr "Passar a l'emulator de terminal 4"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:5
+#: ../data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in.h:5
 msgid "Switch to VT 5"
 msgstr "Passar a l'emulator de terminal 5"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:6
+#: ../data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in.h:6
 msgid "Switch to VT 6"
 msgstr "Passar a l'emulator de terminal 6"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:7
+#: ../data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in.h:7
 msgid "Switch to VT 7"
 msgstr "Passar a l'emulator de terminal 7"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:8
+#: ../data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in.h:8
 msgid "Switch to VT 8"
 msgstr "Passar a l'emulator de terminal 8"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:9
+#: ../data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in.h:9
 msgid "Switch to VT 9"
 msgstr "Passar a l'emulator de terminal 9"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:10
+#: ../data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in.h:10
 msgid "Switch to VT 10"
 msgstr "Passar a l'emulator de terminal 10"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:11
+#: ../data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in.h:11
 msgid "Switch to VT 11"
 msgstr "Passar a l'emulator de terminal 11"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:12
+#: ../data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in.h:12
 msgid "Switch to VT 12"
 msgstr "Passar a l'emulator de terminal 12"
 

@@ -17,7 +17,7 @@
  * along with this program; if not, see <http://www.gnu.org/licenses/>.
  *
  * Adapted from gnome-session/gnome-session/gs-idle-monitor.c and
- *         from gnome-desktop/libgnome-desktop/gnome-idle-monitor.c
+ *         from gnome-desktop/libscarecrow-desktop/scarecrow-idle-monitor.c
  */
 
 #ifndef META_IDLE_MONITOR_PRIVATE_H

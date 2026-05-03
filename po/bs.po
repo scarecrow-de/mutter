@@ -263,12 +263,12 @@ msgstr "Vidi podijeljeno desno"
 msgid "Mutter"
 msgstr "Mutter"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:1
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:1
 msgid "Modifier to use for extended window management operations"
 msgstr ""
 "Modifier koji će se koristiti za proširene operacije window menadžmenta"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:2
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:2
 msgid ""
 "This key will initiate the \"overlay\", which is a combination window "
 "overview and application launching system. The default is intended to be the "
@@ -280,12 +280,12 @@ msgstr ""
 "bude \"Window ključ\" na PC hardware. Očekuje se da je ovo povezivanje ili "
 "zadato ili postavljeno na prazan string."
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:3
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:3
 msgid "Attach modal dialogs"
 msgstr ""
 "Pridruži dijaloške prozore koji ograničavaju klikanje izvan njih (modalne)"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:4
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:4
 msgid ""
 "When true, instead of having independent titlebars, modal dialogs appear "
 "attached to the titlebar of the parent window and are moved together with "
@@ -295,11 +295,11 @@ msgstr ""
 "prozori se javljaju pored naslovne trake nadređenog prozora i mogu se "
 "kretati zajedno s nadređenim prozorom."
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:5
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:5
 msgid "Enable edge tiling when dropping windows on screen edges"
 msgstr "Omogući poravnanje rubova prilikom spuštanja prozora na rubove ekrana"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:6
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:6
 msgid ""
 "If enabled, dropping windows on vertical screen edges maximizes them "
 "vertically and resizes them horizontally to cover half of the available "
@@ -309,11 +309,11 @@ msgstr ""
 "vertikalno i promijeni njihovu veličinu horizontalno tako da pokriju pola "
 "raspoložive oblasti. Padajuće prozore na vrhu zaslona proširi do maksimuma."
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:7
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:7
 msgid "Workspaces are managed dynamically"
 msgstr "Radni prostor je upravljan dinamički"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:8
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:8
 msgid ""
 "Determines whether workspaces are managed dynamically or whether there's a "
 "static number of workspaces (determined by the num-workspaces key in org."
@@ -323,11 +323,11 @@ msgstr ""
 "konstantan broj radnih prostora (određen brojem radnih prostora ključ u org."
 "gnome.desktop.wm.preferences)."
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:9
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:9
 msgid "Workspaces only on primary"
 msgstr "Radni prostori samo na primarni"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:10
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:10
 msgid ""
 "Determines whether workspace switching should happen for windows on all "
 "monitors or only for windows on the primary monitor."
@@ -335,11 +335,11 @@ msgstr ""
 "Odrediti da li bi se trebalo desiti prebacivanje radnih prostora  za prozore "
 "na svim monitorima ili samo za prozore na primarnom monitoru."
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:11
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:11
 msgid "No tab popup"
 msgstr "No tab popup"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:12
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:12
 msgid ""
 "Determines whether the use of popup and highlight frame should be disabled "
 "for window cycling."
@@ -347,13 +347,13 @@ msgstr ""
 "Odrediti da li korištenje popup i označavanje okvira treba biti onemogućeno "
 "za ciklčni prozor."
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:13
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:13
 msgid "Delay focus changes until the pointer stops moving"
 msgstr ""
 "Fokusirati se na promjene u  kašnjenju sve dok se pokazivač ne prestane "
 "pomjerati"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:14
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:14
 msgid ""
 "If set to true, and the focus mode is either \"sloppy\" or \"mouse\" then "
 "the focus will not be changed immediately when entering a window, but only "
@@ -363,11 +363,11 @@ msgstr ""
 "neće biti promijenjen momentalno pri otvaranju prozora, nego samo nakon što "
 "se pokazivač prestane kretati."
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:15
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:15
 msgid "Draggable border width"
 msgstr "Draggable okvir širina"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:16
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:16
 msgid ""
 "The amount of total draggable borders. If the theme's visible borders are "
 "not enough, invisible borders will be added to meet this value."
@@ -375,11 +375,11 @@ msgstr ""
 "Iznos totalnog draggable okvira. Ako vidljivost okvira teme nije dovoljna, "
 "nevidljivi okviri će biti dodani da ispune tu vrijednost."
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:17
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:17
 msgid "Auto maximize nearly monitor sized windows"
 msgstr "Automatsko povećavanje veličine prozora, skoro do veličine monitora"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:18
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:18
 msgid ""
 "If enabled, new windows that are initially the size of the monitor "
 "automatically get maximized."
@@ -387,11 +387,11 @@ msgstr ""
 "Ako je omogućeno, novi prozori koji su u startu veličine monitora "
 "automatski  povećati."
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:19
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:19
 msgid "Place new windows in the center"
 msgstr "Smjesti nove prozore u centar"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:20
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:20
 msgid ""
 "When true, the new windows will always be put in the center of the active "
 "screen of the monitor."
@@ -399,59 +399,59 @@ msgstr ""
 "Kada je tačno, novi prozori će uvijek biti stavljeni u središte aktivnog "
 "zaslona monitora."
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:21
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:21
 msgid "Select window from tab popup"
 msgstr "Odabrati prozor iz tab popup"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:22
+#: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:22
 msgid "Cancel tab popup"
 msgstr "Zatvorti tab popup"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:1
+#: ../data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in.h:1
 msgid "Switch to VT 1"
 msgstr "Prebaci na VT 1"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:2
+#: ../data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in.h:2
 msgid "Switch to VT 2"
 msgstr "Prebaci na VT 2"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:3
+#: ../data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in.h:3
 msgid "Switch to VT 3"
 msgstr "Prebaci na VT 3"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:4
+#: ../data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in.h:4
 msgid "Switch to VT 4"
 msgstr "Prebaci na VT 4"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:5
+#: ../data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in.h:5
 msgid "Switch to VT 5"
 msgstr "Prebaci na VT 5"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:6
+#: ../data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in.h:6
 msgid "Switch to VT 6"
 msgstr "Prebaci na VT 6"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:7
+#: ../data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in.h:7
 msgid "Switch to VT 7"
 msgstr "Prebaci na VT 7"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:8
+#: ../data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in.h:8
 msgid "Switch to VT 8"
 msgstr "Prebaci na VT 8"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:9
+#: ../data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in.h:9
 msgid "Switch to VT 9"
 msgstr "Prebaci na VT 9"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:10
+#: ../data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in.h:10
 msgid "Switch to VT 10"
 msgstr "Prebaci na VT 10"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:11
+#: ../data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in.h:11
 msgid "Switch to VT 11"
 msgstr "Prebaci na VT 11"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:12
+#: ../data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in.h:12
 msgid "Switch to VT 12"
 msgstr "Prebaci na VT 12"
 
